@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*****colors***/
+.gray{
+    color: rgb(156, 154, 154);
+}
+.primary{
+    color:#fb7185;
+}
+.secondary{
+    color:#34d399;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: 2rem;
+}
+.card{
+  background-color: white;
+  border-radius: 10px;
+  max-width: 250px;
+  flex-shrink: 1;
+  overflow:hidden;
+  border: 2px solid maroon;
+  position: relative;
+}
+.card-media{
+    position: relative;
+}
+.card-media img{
+    width: 100%;
+    height: 250px;
+    object-fit: fill;
+}
+.badge{
+    position: absolute;
+    top:1rem;
+    left: 0;
+    background-color:#fb7185 ;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+/***close btn**/
+.close{
+    position: absolute;
+    top:1rem;
+    right: 0.8rem;
+    color: white;
+}
+.card-content{
+    margin: 1rem 0;
+}
+.content-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 1rem 0;
+}
+
+/***description container***/
+.desc{
+   /* padding: 10px; */
+   margin: 0 1rem;
+}
+.desc-title{
+    font-size: 1rem;
+    padding: 8px 0;
+}
+
+.strike-text{
+    text-decoration: line-through;
+}
+/******overlay***/
+/*.overlay-container{
+    position: relative;
+    max-width: 250px;
+}*/
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    top:0;
+    overflow: hidden;
+    /* background-color: rgba(0,0,0,0.3); */
+    background-color: rgb(234, 234, 236,0.5);
+    cursor: pointer;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.overlay-text{
+    /* position: absolute; */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: auto;
+    /* color: white; */
+    font-size: 2rem;
+}

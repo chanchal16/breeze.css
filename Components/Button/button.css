@@ -1,0 +1,54 @@
+.btn-container{
+    max-width: 600px;
+    border: 1px solid grey;
+    padding: 2rem;
+    display: flex;
+    gap: 20px;
+    margin: 1rem;
+}
+.btn{
+    padding: 8px 12px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #fb7185;
+}
+.btn-primary:hover{
+    background-color: #f43f5e;
+}
+.btn-secondary{
+    background-color: #34d399;
+}
+.btn-secondary:hover, .fab-secondary:hover{
+    background-color: #10b981;
+}
+.link{
+    color: #fb7185;
+}
+.link:hover{
+    background-color: #ffe4e6;    
+}
+.icon{
+    color: #fb7185;
+    padding: 15px;
+}
+.icon:hover{
+    border-radius: 50%;    
+    background-color:#ffe4e6 ;
+}
+.fab{
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #fb7185;
+}
+.fab:hover{
+    background-color: #f43f5e;
+}
+.fab-secondary{
+    border-radius: 50%;
+    padding: 15px;
+    background-color:#34d399 ;
+}

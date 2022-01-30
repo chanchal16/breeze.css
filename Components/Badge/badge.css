@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     /* gap:20px; */
-    border:1px solid grey;
+    border:1px solid var(--basic);
 }
 
 .icon, .media{
@@ -25,14 +25,13 @@
     height:18px;
     bottom:1.2rem;
     left:1.2rem;
-    background-color:red;
-    /* font-size: 12px; */
+    background-color:var(--danger);
     font-weight: bold;
 }
 .dotbadge{
     bottom:1.3rem;
     left:1rem;
-    background-color:#22C55E;
+    background-color:var(--success);
     padding:5px;
 }
 .media > div{
@@ -41,7 +40,7 @@
     padding:7px;
     border:2px solid white
 }
-.avatar {
+.avatar-badge {
     width: 50px;
     height: 50px;
     object-fit: fill;
@@ -49,11 +48,11 @@
 }
 
 .online{   
-    background-color:#22C55E;    
+    background-color:var(--success);    
 }
 .offline{   
-    background-color:grey;   
+    background-color:var(--basic);   
 }
 .dnd{  
-    background-color:red;
+    background-color:var(--danger);
 }

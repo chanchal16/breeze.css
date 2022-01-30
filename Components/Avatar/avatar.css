@@ -5,15 +5,18 @@
     justify-content: center;
     align-items: center;
     gap:20px;
-    border:1px solid grey;
+    border:1px solid var(--basic);
+    margin:2rem; 
+    padding: 1rem; 
 }
+
 .avatar{
-    border:1px solid grey;
+    border:1px solid var(--basic);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fda4af;
+    background-color: var(--light);
 }
 .sm{
     width: 40px;

@@ -3,4 +3,6 @@
 
 :root{
     --defaut-bg: #F5F7F9;
+    --danger: red;
+    --basic:grey;
 }

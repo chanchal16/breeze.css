@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: flex-end;
     gap: 20px;
-    border: 1px solid grey;
+    border: 1px solid var(--basic);
     margin: auto;
 }
 .alert{
@@ -23,19 +23,19 @@
     color:white;
 }
 .basic{
-    background-color:gray;   
+    background-color:var(--basic);   
 }
 
 .success{   
     /* background-color:#04db53;    */
-    background-color: #4CAF50;
+    background-color: var(--success);
 }
 .error{
     /* background-color:#fc212c;   */
-    background-color: #F44336;
+    background-color: var(--danger);
 }
 
 .warning{
     /* background-color:#F59E0B;   */
-    background-color: #FF9800;
+    background-color: var(--warn);
 }

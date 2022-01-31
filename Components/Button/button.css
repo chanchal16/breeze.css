@@ -14,41 +14,41 @@
     cursor: pointer;
 }
 .btn-primary{
-    background-color: #fb7185;
+    background-color: var(--primary);
 }
 .btn-primary:hover{
-    background-color: #f43f5e;
+    background-color: var(--primary-dark);
 }
 .btn-secondary{
-    background-color: #34d399;
+    background-color: var(--secondary);
 }
 .btn-secondary:hover, .fab-secondary:hover{
-    background-color: #10b981;
+    background-color: var(--secondary-dark);
 }
 .link{
-    color: #fb7185;
+    color: var(--primary);
 }
 .link:hover{
-    background-color: #ffe4e6;    
+    background-color: var(--light);    
 }
 .icon{
-    color: #fb7185;
+    color: var(--primary);
     padding: 15px;
 }
 .icon:hover{
     border-radius: 50%;    
-    background-color:#ffe4e6 ;
+    background-color:var(--light) ;
 }
 .fab{
     border-radius: 50%;
     padding: 15px;
-    background-color: #fb7185;
+    background-color: var(--primary);
 }
 .fab:hover{
-    background-color: #f43f5e;
+    background-color: var(--primary-dark);
 }
 .fab-secondary{
     border-radius: 50%;
     padding: 15px;
-    background-color:#34d399 ;
+    background-color:var(--secondary) ;
 }

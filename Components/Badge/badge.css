@@ -53,6 +53,6 @@
 .offline{   
     background-color:var(--basic);   
 }
-.dnd{  
+.disabled{  
     background-color:var(--danger);
 }

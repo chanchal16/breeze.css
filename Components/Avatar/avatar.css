@@ -1,15 +1,4 @@
 
-.avatar-container{
-    max-width: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-    border:1px solid var(--basic);
-    margin:2rem; 
-    padding: 1rem; 
-}
-
 .avatar{
     border:1px solid var(--basic);
     border-radius: 50%;
@@ -19,18 +8,18 @@
     background-color: var(--light);
 }
 .sm{
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     font-size: 1rem;
 }
 .md{
-    width: 50px;
-    height: 50px;
+    width: 3.1rem;
+    height: 3.1rem;
     font-size: 1.3rem;
 }
 .lg{
-    width: 60px;
-    height: 60px;
+    width: 3.8rem;
+    height: 3.8rem;
     font-size: 1.8rem;
 }
 .square{

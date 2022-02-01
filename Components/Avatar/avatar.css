@@ -1,0 +1,27 @@
+
+.avatar{
+    border:1px solid var(--basic);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light);
+}
+.sm{
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+}
+.md{
+    width: 3.1rem;
+    height: 3.1rem;
+    font-size: 1.3rem;
+}
+.lg{
+    width: 3.8rem;
+    height: 3.8rem;
+    font-size: 1.8rem;
+}
+.square{
+    border-radius: 8px;
+}

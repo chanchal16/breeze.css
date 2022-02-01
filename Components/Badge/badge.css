@@ -53,6 +53,6 @@
 .offline{   
     background-color:var(--basic);   
 }
-.disabled{  
+.busy{  
     background-color:var(--danger);
 }

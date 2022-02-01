@@ -1,0 +1,58 @@
+.badge-container{
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap:20px; */
+    border:1px solid var(--basic);
+}
+
+.icon, .media{
+    position:relative;
+    margin:2rem;
+  }
+.badge {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+}
+
+.numbadge{
+    width:18px;
+    height:18px;
+    bottom:1.2rem;
+    left:1.2rem;
+    background-color:var(--danger);
+    font-weight: bold;
+}
+.dotbadge{
+    bottom:1.3rem;
+    left:1rem;
+    background-color:var(--success);
+    padding:5px;
+}
+.media > div{
+    bottom:0.4rem;
+    left:2.3rem;
+    padding:7px;
+    border:2px solid white
+}
+.avatar-badge {
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.online{   
+    background-color:var(--success);    
+}
+.offline{   
+    background-color:var(--basic);   
+}
+.busy{  
+    background-color:var(--danger);
+}

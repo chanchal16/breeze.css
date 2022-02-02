@@ -1,6 +1,11 @@
 :root{
-    --danger: red;
-    --success: #22C55E;
+    --primary:#fb7185;
+    --primary-dark:#f43f5e;
+    --secondary:#34d399;
+    --secondary-dark:#10b981;
+    --danger: #F44336;
+    --success: #4CAF50;
+    --warn:#FF9800;
     --basic:grey;
-    --light:#fda4af;
+    --light:#ffe4e6 ;
 }

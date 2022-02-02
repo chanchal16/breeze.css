@@ -141,11 +141,11 @@
     flex-direction: column;
     gap:8px
 }
-.title{
+.card-title{
     font-size: 1.5rem;
     margin: 0 1rem;
 }
-.sub-title{
+.card-sub-title{
     margin: 0 1rem 1rem;
     font-size: 1.2rem;
     font-weight: 600;

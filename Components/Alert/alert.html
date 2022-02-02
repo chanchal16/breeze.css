@@ -5,29 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/breeze.css">
+    <link rel="stylesheet" href="../../styles/docs.css" class="stylesheet">
     <title>Breeze.css</title>
 </head>
 <body>
-  <div class="alert-container">
-    <div class="alert basic">
-      <p>This is basic alert!</p>
+  <section class="doc-container">
+    <div class="component-intro">
+      <h1 class="title">Alerts</h1>
+      <p class="component-desc">An alert is used to display short, important message to attract user's attention
+        with minimal user interaction.
+      </p>
+    </div>
+
+    <h2>Simple alert</h2>
+    <p>Alert comes with four severity levels with a distinctive icon and color. Alerts can be 
+      created using <span style="color: var(--primary);">alert</span> class followed by the severity name.
+    </p>
+
+    <!--------preview div--------->
+    <div class="example-container display-col">
+      <div class="alert basic">
+        <p>This is basic alert!</p>
+      </div>
+      
+      <div class='alert success'>
+        <span><i class="far fa-check-circle"></i></span>
+        <p>This is success message!</p>
+      </div>
+      
+      <div class='alert error'>
+        <i class="fas fa-skull"></i>
+        <p>This is error message.</p>
+      </div>
+      
+      <div class='alert warning'>
+        <i class="fas fa-exclamation-triangle"></i>
+        <p>This is warning message.</p>
+      </div>
+    </div>
+
+    <!------code div-------->
+    <div class="code-snippet">
+      <code>
+        <iframe src="https://www.thiscodeworks.com/embed/61fa42deb783be0015bbae62" 
+        style="width: 100%; height: 320px;" frameborder="0"></iframe>    
+      </code>
     </div>
     
-    <div class='alert success'>
-      <span><i class="far fa-check-circle"></i></span>
-      <p>This is success message!</p>
+    <h2>Alerts with action </h2>
+    <p>Alert can have a closing action button. It is rendered after the message at the end of the alert. 
+    </p>
+
+    <div class="example-container display-col">     
+      <div class='alert success'>
+        <span><i class="far fa-check-circle"></i></span>
+        <p>This is success message!</p>
+        <span class="ml"><i class="fas fa-times "></i></span>
+      </div>    
     </div>
-    
-    <div class='alert error'>
-      <i class="fas fa-skull"></i>
-      <p>This is error message.</p>
+
+    <!----code div------>
+    <div class="code-snippet">
+      <code>
+        <iframe src="https://www.thiscodeworks.com/embed/61fa7995b783be0015bbaea1"
+         style="width: 100%; height: 151px;" frameborder="0"></iframe>
+      </code>
     </div>
-    
-    <div class='alert warning'>
-      <i class="fas fa-exclamation-triangle"></i>
-      <p>This is warning message.</p>
-    </div>
-  </div>
+  </section>
   
 </body>
 </html>

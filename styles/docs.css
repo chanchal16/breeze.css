@@ -5,6 +5,11 @@
 }
 .component-intro{
     margin: 1rem;
+    padding: 0.2rem;
+}
+.info{
+    margin: 0.6rem 0;
+    padding: 0.5rem 0;
 }
 .example-container{
     background-color: var(--default-bg);

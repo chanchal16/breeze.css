@@ -1,0 +1,15 @@
+.img-container{
+    max-width: 700px;
+    background-color: var(--defaut-bg);
+    padding: 1rem;
+    margin: auto;
+}
+.res-image{
+    width: 100%;
+    height: auto;
+}
+.round-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}

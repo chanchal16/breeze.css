@@ -1,0 +1,8 @@
+@import './ImageComponent/image.css';
+@import './Input/input.css';
+
+:root{
+    --defaut-bg: #F5F7F9;
+    --danger: red;
+    --basic:grey;
+}

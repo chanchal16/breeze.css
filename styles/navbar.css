@@ -1,0 +1,43 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+@import './variables.css';
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #ffe4e6;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem; 
+    background-color: var(--primary);
+    margin: 0;
+    font-family: 'Amarante', cursive;
+    
+}
+.brand-name {
+    margin: 0.25rem;
+    padding: 0.25rem;
+    color: #ffe4e6;
+}
+.logo:hover,.brand-name:hover{
+    color: #e11d48;
+    cursor: pointer;   
+}
+.navbar-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+.github-btn {
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem;
+}

@@ -5,45 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/breeze.css">
+    <link rel="stylesheet" href="../../styles/docs.css">
     <title>Badge</title>
 </head>
 <body>
-    <div class="badge-container">
-      <div class='icon'>
-        <i class="fas fa-envelope fa-2x"></i>
-        <div class='badge numbadge'>
-          <small>7</small>
+    <section class="doc-container">
+        <div class="component-intro">
+            <h1 class="h2">Badge</h1>
+            <p class="text-md info">
+                Badges are used to highlight an item's status for quick recognition. They small circles
+                usually positioned at top-right or bottom right of the parent element.
+            </p>
         </div>
-      </div>
-    
-      <div class='icon'>
-        <i class="fas fa-bell fa-2x"></i>
-        <div class='badge dotbadge'></div>
-      </div>
-    </div>
-    
-    <div class="badge-container">
-        <div class="media">
-            <img class="avatar-badge"
-                src="https://i.picsum.photos/id/839/200/200.jpg?hmac=IKyeqXa3iOwFkcM24B_X_Qjf9643wuDTCsTiM3T6AZg"
-                alt="hill"
-            />
-            <div class='badge online'></div>
+        <!-----badges on icon------>
+        <div class="component-intro">
+            <h2 class="h5">Badge on icon</h2>
+            <p class="text-md">
+                There are two types of badges available for icon --<span>number badge and dot badge</span> you can access this 
+                using classes <span class="primary-text">.numbadge and .dotbadge</span> respectively followed by 
+                <span class="primary-text">.badge</span> class.
+            </p>
         </div>
-        <div class="media">
-            <img class="avatar-badge"
-                src="https://i.picsum.photos/id/839/200/200.jpg?hmac=IKyeqXa3iOwFkcM24B_X_Qjf9643wuDTCsTiM3T6AZg"
-                alt="hill"
-            />
-            <div class='badge offline'></div>
+        <!--------preview div--------->
+        <div class="example-container">
+            <div class='badge-icon'>
+                <i class="fas fa-envelope fa-2x"></i>
+                <div class='badge numbadge'>
+                <small>7</small>
+                </div>
+            </div>
+            
+            <div class='badge-icon'>
+                <i class="fas fa-bell fa-2x"></i>
+                <div class='badge dotbadge'></div>
+            </div>
         </div>
-        <div class="media">
-            <img class="avatar-badge"
-                src="https://i.picsum.photos/id/839/200/200.jpg?hmac=IKyeqXa3iOwFkcM24B_X_Qjf9643wuDTCsTiM3T6AZg"
-                alt="hill"
-            />
-            <div class='badge busy'></div>
+        <!------code div-------->
+        <div class="code-snippet">
+            <code>
+                <iframe src="https://www.thiscodeworks.com/embed/61fb6bec6ab14d0015c32cf0" 
+                style="width: 100%; height: 957px;" frameborder="0"></iframe>
+            </code>
         </div>
-    </div>
+
+        <!----------badge on avatar-------------->
+        <div class="component-intro">
+            <h2 class="h5">Profile Badge</h2>
+            <p class="text-md">
+                Profile badge is used to show the current status of the user. There are three variants
+                for the status namely-- <span class="primary-text">online, offline, busy</span>.
+            </p>
+        </div>
+        <!--------preview div--------->
+        <div class="example-container">
+            <div class="media">
+                <img class="avatar-badge"
+                    src="https://static.diverseui.com/female-71.jpg"
+                    alt=""
+                />
+                <div class='badge online'></div>
+            </div>
+            <div class="media">
+                <img class="avatar-badge"
+                    src="https://static.diverseui.com/female-71.jpg"
+                    alt=""
+                />
+                <div class='badge offline'></div>
+            </div>
+            <div class="media">
+                <img class="avatar-badge"
+                    src="https://static.diverseui.com/female-71.jpg"
+                    alt=""
+                />
+                <div class='badge busy'></div>
+            </div>
+        </div>
+        <!------code div-------->
+        <div class="code-snippet">
+            <code>
+                <iframe src="https://www.thiscodeworks.com/embed/61fb6dd66ab14d0015c32cf5" 
+                style="width: 100%; height: 1685px;" frameborder="0"></iframe>
+            </code>
+        </div>
+    </section>
 </body>
 </html>

@@ -4,76 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../../styles/breeze.css">
+    <link rel="stylesheet" href="../../styles/docs.css">
     <title>Breeze.css</title>
 </head>
 <body>
-    <div class="card-container">
-        <div class="card">
-            <div class="card-media">
-                <img class="vc-image"
-                src="https://rukminim1.flixcart.com/image/800/960/kl8ccy80/top/k/p/s/xxl-t352-wrwh-eyebogler-original-imagyeehpufu7tcf.jpeg?q=50" 
-                alt="top" />
-                <span class="badge">new</span>
-            </div>
-            <div class="card-content">
-                <div class="content-title">
-                    <h4>Maroon Top</h4>
-                    <span class=" gray">
-                        <i class="fas fa-heart fa-lg"></i>
-                    </span>
-                </div>
-                <div class="desc">
-                    <p class="desc-title">Casual Regular Top</p>
-                    <p><strong> Rs.799 </strong>&nbsp;<span class="strike-text gray">Rs.999       
-                    </span>&nbsp;<span class="secondary">20% off</span></p>
-                </div> 
-                <div class="action-btns">
-                    <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
-                </div>                      
-            </div>
+    <section class="doc-container">
+        <div class="component-intro">
+            <h1 class="h2">Cards</h1>
+            <p class="text-md info">
+                A card is a flexible and extensible content container. It is used to display data 
+                and actions related to specific topic.
+            </p>
         </div>
-        <!----with dismiss/close btn---->
-        <div class="card">
-            <div class="card-media">
-                <img class="vc-image"
-                src="https://rukminim1.flixcart.com/image/800/960/kl8ccy80/top/k/p/s/xxl-t352-wrwh-eyebogler-original-imagyeehpufu7tcf.jpeg?q=50" 
-                alt="top" />
-                <span class="badge">new</span>
-                <span class="close "><i class="fas fa-times fa-lg"></i></span>
-            </div>
-            <div class="card-content">
-                <div class="content-title">
-                    <h4>Maroon Top</h4>
-                    <span class=" gray">
-                        <i class="fas fa-heart fa-lg"></i>
-                    </span>
-                </div>
-                <div class="desc">
-                    <p class="desc-title">Casual Regular Top</p>
-                    <p><strong> Rs.799 </strong>&nbsp;<span class="strike-text gray">Rs.999       
-                    </span>&nbsp;<span class="secondary">20% off</span></p>
-                </div>
-                <div class="action-btns">
-                    <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
-                </div>                        
-            </div>
+        <!------vertical cards----->
+        <div class="component-intro">
+            <h2 class="h5">Vertical Cards</h2>
+            <p class="text-md">
+                Vertical cards comes with three variants,<strong>card with badge,card with close-button,
+                and card with text overlay</strong>.
+            </p>
         </div>
-
-        <!---text overelay---->      
-        <div class="card">
+        <!--------preview div--------->
+        <div class="example-container">
+            <div class="card">
                 <div class="card-media">
                     <img class="vc-image"
                     src="https://rukminim1.flixcart.com/image/800/960/kl8ccy80/top/k/p/s/xxl-t352-wrwh-eyebogler-original-imagyeehpufu7tcf.jpeg?q=50" 
                     alt="top" />
-                    <span class="badge">new</span>
+                    <span class="text-badge">new</span>
+                </div>
+                <div class="card-content">
+                    <div class="content-title">
+                        <h4>Maroon Top</h4>
+                        <span class=" gray">
+                            <i class="fas fa-heart "></i>
+                        </span>
+                    </div>
+                    <div class="desc">
+                        <p class="desc-title">Casual Regular Top</p>
+                        <p><strong> Rs.799 </strong>&nbsp;<span class="strike-text gray">Rs.999       
+                        </span>&nbsp;<span class="secondary">20% off</span></p>
+                    </div> 
+                    <div class="action-btns">
+                        <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                    </div>                      
+                </div>
+            </div>
+            <!----with dismiss/close btn---->
+            <div class="card">
+                <div class="card-media">
+                    <img class="vc-image"
+                    src="https://rukminim1.flixcart.com/image/800/960/kl8ccy80/top/k/p/s/xxl-t352-wrwh-eyebogler-original-imagyeehpufu7tcf.jpeg?q=50" 
+                    alt="top" />
+                    <span class="text-badge">new</span>
                     <span class="close "><i class="fas fa-times fa-lg"></i></span>
                 </div>
                 <div class="card-content">
                     <div class="content-title">
                         <h4>Maroon Top</h4>
                         <span class=" gray">
-                            <i class="fas fa-heart fa-lg"></i>
+                            <i class="fas fa-heart "></i>
                         </span>
                     </div>
                     <div class="desc">
@@ -84,38 +75,86 @@
                     <div class="action-btns">
                         <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
                     </div>                        
-                </div> 
-                <div class="overlay">
-                    <p class="overlay-text">out of stock</p>
-                </div>                    
-        </div>          
-    </div>
-    <!----horizontal card---->
-    <div class="card-container">
-        <div class="horizontal-card">
-            <div class="card-media">
-                <img class="hc-image"
-                src="https://rukminim1.flixcart.com/image/800/960/kjym9ow0/hand-messenger-bag/s/g/t/women-s-pu-leather-handbag-and-sling-bags-combo-of-3-grey-embdry-original-imafzeyztetpuyjf.jpeg?q=50" 
-                alt="top" />
-               
+                </div>
             </div>
-            <div class="content">
-                <h3 class="card-title">Handbags</h3>
-                <p class="gray card-sub-title">Min 70% off</p>
-                <button class="btn">Shop now!</button>
+
+            <!---text overelay---->      
+            <div class="card">
+                    <div class="card-media">
+                        <img class="vc-image"
+                        src="https://rukminim1.flixcart.com/image/800/960/kl8ccy80/top/k/p/s/xxl-t352-wrwh-eyebogler-original-imagyeehpufu7tcf.jpeg?q=50" 
+                        alt="top" />
+                        <span class="text-badge">new</span>
+                        <span class="close "><i class="fas fa-times fa-lg"></i></span>
+                    </div>
+                    <div class="card-content">
+                        <div class="content-title">
+                            <h4>Maroon Top</h4>
+                            <span class=" gray">
+                                <i class="fas fa-heart "></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <p class="desc-title">Casual Regular Top</p>
+                            <p><strong> Rs.799 </strong>&nbsp;<span class="strike-text gray">Rs.999       
+                            </span>&nbsp;<span class="secondary">20% off</span></p>
+                        </div>
+                        <div class="action-btns">
+                            <button class="btn"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        </div>                        
+                    </div> 
+                    <div class="overlay">
+                        <p class="overlay-text">out of stock</p>
+                    </div>                    
+            </div> 
+        </div>
+        <!------code div-------->
+        <div class="code-snippet">
+            <code>
+                <iframe src="https://www.thiscodeworks.com/embed/61fb856c6ab14d0015c32d11" 
+                style="width: 100%; height: 2972px;" frameborder="0"></iframe>
+            </code>
+        </div>
+        <!----horizontal card---->
+        <div class="component-intro">
+            <h2 class="h5">Horizontal Cards</h2>
+            <p class="text-md">
+                Horizontal cards comes with an image, headings and action buttons. 
+            </p>
+        </div>
+        <!--------preview div--------->
+        <div class="example-container">
+            <div class="horizontal-card">
+                <div class="card-media">
+                    <img class="hc-image"
+                    src="https://rukminim1.flixcart.com/image/800/960/kjym9ow0/hand-messenger-bag/s/g/t/women-s-pu-leather-handbag-and-sling-bags-combo-of-3-grey-embdry-original-imafzeyztetpuyjf.jpeg?q=50" 
+                    alt="top" />                
+                </div>
+                <div class="content">
+                    <h3 class="card-title">Handbags</h3>
+                    <p class="gray card-sub-title">Min 70% off</p>
+                    <button class="btn">Shop now!</button>
+                </div>
             </div>
         </div>
-    </div>
-    <!-----text only card--->
-    <div class="card-container">
-        <div class="text-card">
-            <span class=" gray chip">Word of the Day</span>
-            <h3 class="title">be•nev•o•lent</h3>
-            <p class="gray sub-title">adjective</p>
-            <p class="text">well meaning and kindly.
-                "a benevolent smile"</p>
-            <button class=" btn-primary">Learn More</button>
+        <!-----text only card--->
+        <div class="component-intro">
+            <h2 class="h5">Text Only Cards</h2>
+            <p class="text-md">
+                Text only cards comes with headings, content, and action buttons. 
+            </p>
         </div>
-    </div>
+        <!--------preview div--------->
+        <div class="example-container">
+            <div class="text-card">
+                <span class=" gray chip">Word of the Day</span>
+                <h3 class="card-title">be•nev•o•lent</h3>
+                <p class="card-sub-title ">adjective</p>
+                <p class="text">well meaning and kindly.
+                    "a benevolent smile"</p>
+                <button class=" btn-primary">Learn More</button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

@@ -4,13 +4,15 @@
 
 /******import component files*****/
 @import './reset.css';
+@import '../Components/Alert/alert.css';
 @import '../Components/Avatar/avatar.css';
 @import '../Components/Badge/badge.css';
-@import '../Components/Alert/alert.css';
 @import '../Components/Button/button.css';
 @import '../Components/Cards/cards.css';
-@import './variables.css';
+@import '../Components/ImageComponent/image.css';
+@import '../Components/Input/input.css';
 @import '../Components/Text Utilities/typography.css';
+@import './variables.css';
 
 *,
 *:before,

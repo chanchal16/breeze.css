@@ -165,12 +165,12 @@
 .text{
     margin:1rem;
 }
-.btn-primary{
-    padding: 8px 12px;
+.primary-btn{
+    padding: 8px 12px; 
     margin:0 1rem ;
-    color: white;
+    color: white; 
     border:none;
-    border-radius: 5px;
+    border-radius: 5px; 
     cursor: pointer;
-    background-color: var(--primary);
+    background-color: var(--primary); 
 }

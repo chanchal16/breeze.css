@@ -21,7 +21,7 @@
     padding: 1rem;
     margin-bottom: 1.5rem;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.5rem;
 }
 .display-col{
     flex-direction: column;
@@ -33,7 +33,7 @@
     padding: 1rem 0; 
     background-color: #FAFAFA;
     margin: 2rem 0;
-    overflow: auto; 
+    overflow: auto;  
 }
 .code-snippet iframe{
     width: 100%;

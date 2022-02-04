@@ -10,79 +10,132 @@
 
 </head>
 <body>
-    <section class="doc-container">
-        <div class="component-intro">
-            <h1 class="h2">Avatars</h1>
-            <p class="text-md info">
-                The Avatar component is used to represent a user or an entity (such as project, repository, or space), 
-                and displays the profile picture, initials or fallback icon.
-            </p>
-        </div>
-        <div class="component-intro">
-            <h2 class="h5">Rounded Avatars</h2>
-            <p class="text-md">
-                There are three sizes available --<span>small, medium, and large</span> you can access this 
-                using classes <span class="primary-text">.sm, .md, .lg</span> respectively.
-            </p>
-        </div>
-        <!--------preview div--------->
-        <div class="example-container ">
-            <img class="avatar sm" src="https://avatars.dicebear.com/api/bottts/x4.svg" alt="avatar1" />
-            <img class="avatar md" src="https://i.pravatar.cc/150?img=37" alt="avatar2" />
-            <img class="avatar lg" src="https://avatars.dicebear.com/api/avataaars/x18.svg" alt="avatar3" />
-        </div>
-        <!------code div-------->
-        <div class="code-snippet">
-            <code>
-                <iframe src="https://www.thiscodeworks.com/embed/61facca3b783be0015bbaf2c" 
-                style="width: 100%; height: 125px;" frameborder="0"></iframe>
-            </code>
-        </div>
+    <div class="container">
+        <header class="navbar">
+            <span class="logo">
+              <img src="../../assets/swan-breeze.svg" alt="logo" width="35px" height="35px" />
+              <!-- <img src="../assets/logo.svg" alt="logo" width="35px" height="35px" /> -->
+            </span>
+            <h2 class="brand-name h6">
+              Breeze.css
+            </h2>
+            <div class="navbar-items">
+              <nav>
+                <a href="#" class="github-btn">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </nav>
+            </div>
+        </header>
+        <aside>
+            <div class="drawer">
+              <div class="drawer-content">
+                <h2 class="text-md">Components</h2>
+                <div style="margin: auto;">
+                  <ul>
+                    <li class="drawer-items">
+                      <a href="../Alert/alert.html">Alerts</a>
+                    </li>
+                    <li class="drawer-items selected">
+                      <a href=""> Avatars</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Button/button.html">Button</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Cards/cards.html">Cards</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../ImageComponent/image.html">Image</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Input/input.html">Inputs</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Text Utilities/typography.html">Typography</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </aside>
+        <section class="doc-container">
+            <div class="component-intro">
+                <h1 class="h2">Avatars</h1>
+                <p class="text-md info">
+                    The Avatar component is used to represent a user or an entity (such as project, repository, or space), 
+                    and displays the profile picture, initials or fallback icon.
+                </p>
+            </div>
+            <div class="component-intro">
+                <h2 class="h5">Rounded Avatars</h2>
+                <p class="text-md">
+                    There are three sizes available --<span>small, medium, and large</span> you can access this 
+                    using classes <span class="primary-text">.sm, .md, .lg</span> respectively.
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container ">
+                <img class="avatar sm" src="https://avatars.dicebear.com/api/bottts/x4.svg" alt="avatar1" />
+                <img class="avatar md" src="https://i.pravatar.cc/150?img=37" alt="avatar2" />
+                <img class="avatar lg" src="https://avatars.dicebear.com/api/avataaars/x18.svg" alt="avatar3" />
+            </div>
+            <!------code div-------->
+            <div class="code-snippet">
+                <code>
+                    <iframe src="https://www.thiscodeworks.com/embed/61facca3b783be0015bbaf2c" 
+                    style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                </code>
+            </div>
 
 
-    <!---------with initials-->
-        <div class="component-intro">
-            <h2 class="h5">Avatars with Initials</h2>
-            <p class="text-md info">
-                You can also create avatars using initials of users. You can use these avatars as default
-                if user does not provide a picture or if there is an error loading the src of the avatar.
-            </p>
-        </div>
-        <!--------preview div--------->
-        <div class="example-container ">
-            <div class="avatar sm">CR</div>
-            <div class="avatar md">CR</div>
-            <div class="avatar lg">CR</div>
-        </div>
-        <!------code div-------->
-        <div class="code-snippet">
-            <code>
-                <iframe src="https://www.thiscodeworks.com/embed/61facd38b783be0015bbaf2d" 
-                style="width: 100%; height: 125px;" frameborder="0"></iframe>
-            </code>
-        </div>
+            <!---------with initials-->
+            <div class="component-intro">
+                <h2 class="h5">Avatars with Initials</h2>
+                <p class="text-md info">
+                    You can also create avatars using initials of users. You can use these avatars as default
+                    if user does not provide a picture or if there is an error loading the src of the avatar.
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container ">
+                <div class="avatar sm">CR</div>
+                <div class="avatar md">CR</div>
+                <div class="avatar lg">CR</div>
+            </div>
+            <!------code div-------->
+            <div class="code-snippet">
+                <code>
+                    <iframe src="https://www.thiscodeworks.com/embed/61facd38b783be0015bbaf2d" 
+                    style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                </code>
+            </div>
 
-    <!----SQUARE-->
-        <div class="component-intro">
-            <h2 class="h5">Square Avatars</h2>
-            <p class="text-md info">
-                If you need a square variant you can simply add <span class="primary-text">.square</span>
-                class to the existing class.
-            </p>
-        </div>
-        <!--------preview div--------->
-        <div class="example-container ">
-            <img class="avatar square sm" src="https://avatars.dicebear.com/api/bottts/x4.svg" alt="avatar" />
-            <img class="avatar square md" src="https://i.pravatar.cc/150?img=37" alt="avatar" />
-            <img class="avatar square lg" src="https://avatars.dicebear.com/api/avataaars/x18.svg" alt="avatar" />
-        </div>
-        <!------code div-------->
-        <div class="code-snippet">
-            <code>
-                <iframe src="https://www.thiscodeworks.com/embed/61face16b783be0015bbaf2e" 
-                style="width: 100%; height: 125px;" frameborder="0"></iframe>
-            </code>
-        </div>
-    </section>
+            <!----SQUARE---->
+            <div class="component-intro">
+                <h2 class="h5">Square Avatars</h2>
+                <p class="text-md info">
+                    If you need a square variant you can simply add <span class="primary-text">.square</span>
+                    class to the existing class.
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container ">
+                <img class="avatar square sm" src="https://avatars.dicebear.com/api/bottts/x4.svg" alt="avatar" />
+                <img class="avatar square md" src="https://i.pravatar.cc/150?img=37" alt="avatar" />
+                <img class="avatar square lg" src="https://avatars.dicebear.com/api/avataaars/x18.svg" alt="avatar" />
+            </div>
+            <!------code div-------->
+            <div class="code-snippet">
+                <code>
+                    <iframe src="https://www.thiscodeworks.com/embed/61face16b783be0015bbaf2e" 
+                    style="width: 100%; height: 125px;" frameborder="0"></iframe>
+                </code>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

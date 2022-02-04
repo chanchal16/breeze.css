@@ -9,63 +9,116 @@
     <title>Breeze.css</title>
 </head>
 <body>
-    <section class="doc-container">
-        <div class="component-intro">
-            <h1 class="h2">Images</h1>
-            <p class="text-md info">
-                Image component is used to display images on the screen. They take the entire width of the 
-                parent and are responsive. 
-            </p>
-        </div>
-        <div class="component-intro">
-            <h2 class="h5">Responsive Image</h2>
-            <p class="text-md info">
-                You can make the image responsive by giving it a class 
-                <span class="primary-text">.res-image</span>. It will keep the aspect ratio same.
-            </p>
-        </div>
-        <!--------preview div--------->
-        <div class="example-container">
-            <div class="img">
-                <img 
-                src="https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ" 
-                alt="responsive-image" class="res-image" />
+    <div class="container">
+        <header class="navbar">
+            <span class="logo">
+              <img src="../../assets/swan-breeze.svg" alt="logo" width="35px" height="35px" />
+              <!-- <img src="../assets/logo.svg" alt="logo" width="35px" height="35px" /> -->
+            </span>
+            <h2 class="brand-name h6">
+              Breeze.css
+            </h2>
+            <div class="navbar-items">
+              <nav>
+                <a href="#" class="github-btn">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </nav>
             </div>
-        </div>
-        <!------code div-------->
-        <div class="code-snippet">
-            <code>
-                <iframe
-                src="https://carbon.now.sh/embed/b1h3M3kyGgL1fziwZzPO"
-                style=" border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </code>
-        </div>
-        <!--------round image------->
-        <div class="component-intro">
-            <h2 class="h5">Round Image</h2>
-            <p class="text-md info">
-                To make the image round shaped just add the class <span class="primary-text">.round-img</span>
-                to the image.
-            </p>
-        </div>
-        <!--------preview div--------->
-        <div class="example-container">
-            <img 
-            src="https://picsum.photos/id/237/400/400"
-            alt="round-image" class="round-img" />
-        </div>
-        <!------code div-------->
-        <div class="code-snippet">
-            <code>
-                <iframe
-                src="https://carbon.now.sh/embed/PjwExiuF5vLbVITtsXHs"
-                style=" border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </code>
-        </div>
-    </section>
+        </header>
+        <aside>
+            <div class="drawer">
+            <div class="drawer-content">
+                <h2 class="text-md">Components</h2>
+                <div style="margin: auto;">
+                <ul>
+                    <li class="drawer-items">
+                    <a href="../Alert/alert.html">Alerts</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Avatar/avatar.html"> Avatars</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Button/button.html">Button</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Cards/cards.html">Cards</a>
+                    </li>
+                    <li class="drawer-items selected">
+                    <a href="">Image</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Input/input.html">Inputs</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Text Utilities/typography.html">Typography</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </div>
+        </aside>
+        <section class="doc-container">
+            <div class="component-intro">
+                <h1 class="h2">Images</h1>
+                <p class="text-md info">
+                    Image component is used to display images on the screen. They take the entire width of the 
+                    parent and are responsive. 
+                </p>
+            </div>
+            <div class="component-intro">
+                <h2 class="h5">Responsive Image</h2>
+                <p class="text-md info">
+                    You can make the image responsive by giving it a class 
+                    <span class="primary-text">.res-image</span>. It will keep the aspect ratio same.
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container">
+                <div class="img">
+                    <img 
+                    src="https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ" 
+                    alt="responsive-image" class="res-image" />
+                </div>
+            </div>
+            <!------code div-------->
+            <div class="code-snippet">
+                <code>
+                    <iframe
+                    src="https://carbon.now.sh/embed/b1h3M3kyGgL1fziwZzPO"
+                    style=" border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div>
+            <!--------round image------->
+            <div class="component-intro">
+                <h2 class="h5">Round Image</h2>
+                <p class="text-md info">
+                    To make the image round shaped just add the class <span class="primary-text">.round-img</span>
+                    to the image.
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container">
+                <img 
+                src="https://picsum.photos/id/237/400/400"
+                alt="round-image" class="round-img" />
+            </div>
+            <!------code div-------->
+            <div class="code-snippet">
+                <code>
+                    <iframe
+                    src="https://carbon.now.sh/embed/PjwExiuF5vLbVITtsXHs"
+                    style=" border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

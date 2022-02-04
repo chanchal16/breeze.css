@@ -9,70 +9,123 @@
     <title>Input</title>
 </head>
 <body>
-    <section class="doc-container">
-        <div class="component-intro">
-            <h1 class="h2">Input</h1>
-            <p class="text-md info">
-                Inputs are used to get user input in a text-field. They are mainly used in forms. 
-                Inputs can be displayed in various ways depending on its type attribute.  
-            </p>
-        </div>
-        <!-----input element-->
-        <div class="component-intro">
-            <h2 class="h5">Input Element</h2>
-            <p class="text-md info">
-                Input element comes with a label present at the top of the input field. You can 
-                customize the styling to show validations using the <span class="primary-text">.err</span>
-                class on the parent wrapper.              
-            </p>
-        </div>
-        <!--------preview div--------->
-        <div class="example-container display-col">
-            <div class="input-grp">
-                <label>Username</label>
-                <input type="text" class="input-field" />
+    <div class="container">
+        <header class="navbar">
+            <span class="logo">
+              <img src="../../assets/swan-breeze.svg" alt="logo" width="35px" height="35px" />
+              <!-- <img src="../assets/logo.svg" alt="logo" width="35px" height="35px" /> -->
+            </span>
+            <h2 class="brand-name h6">
+              Breeze.css
+            </h2>
+            <div class="navbar-items">
+              <nav>
+                <a href="#" class="github-btn">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </nav>
             </div>
-            <div class="input-grp err">
-                <label>Email*</label>
-                <input type="email" class="input-field" placeholder="johnDoe" />
-                <small>Please enter a valid email id.</small>
+        </header>
+        <aside>
+            <div class="drawer">
+            <div class="drawer-content">
+                <h2 class="text-md">Components</h2>
+                <div style="margin: auto;">
+                <ul>
+                    <li class="drawer-items">
+                    <a href="../Alert/alert.html">Alerts</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Avatar/avatar.html"> Avatars</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Button/button.html">Button</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Cards/cards.html">Cards</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../ImageComponent/image.html">Image</a>
+                    </li>
+                    <li class="drawer-items selected">
+                    <a href="">Inputs</a>
+                    </li>
+                    <li class="drawer-items">
+                    <a href="../Text Utilities/typography.html">Typography</a>
+                    </li>
+                </ul>
+                </div>
             </div>
-        </div>
-        <!------code div-------->
-        <div class="code-snippet">
-            <code>
-                <iframe
-                src="https://carbon.now.sh/embed/ewHCqroc0uALEfc4q0Ha"
-                style=" border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </code>
-        </div> 
-        <!----textarea------->
-        <div class="component-intro">
-            <h2 class="h5">Textarea Element</h2>
-            <p class="text-md info">
-                The textarea element defines a multi-line text input control. It is often used in a
-                form, to collect user inputs like comments or reviews.             
-            </p>
-        </div>
-        <!--------preview div--------->
-        <div class="example-container">
-            <div class="input-grp">
-                <label>Textarea</label>
-                <textarea placeholder="enter you text here" rows="4" class="input-field" ></textarea>
             </div>
-        </div>
-        <!------code div-------->
-        <div class="code-snippet">
-            <code>
-                <iframe
-                src="https://carbon.now.sh/embed/UBNwP5HAC1ugaqxr4FKP"
-                style=" border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </code>
-        </div>
-    </section>
+        </aside>
+        <section class="doc-container">
+            <div class="component-intro">
+                <h1 class="h2">Input</h1>
+                <p class="text-md info">
+                    Inputs are used to get user input in a text-field. They are mainly used in forms. 
+                    Inputs can be displayed in various ways depending on its type attribute.  
+                </p>
+            </div>
+            <!-----input element-->
+            <div class="component-intro">
+                <h2 class="h5">Input Element</h2>
+                <p class="text-md info">
+                    Input element comes with a label present at the top of the input field. You can 
+                    customize the styling to show validations using the <span class="primary-text">.err</span>
+                    class on the parent wrapper.              
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container display-col">
+                <div class="input-grp">
+                    <label>Username</label>
+                    <input type="text" class="input-field" />
+                </div>
+                <div class="input-grp err">
+                    <label>Email*</label>
+                    <input type="email" class="input-field" placeholder="johnDoe" />
+                    <small>Please enter a valid email id.</small>
+                </div>
+            </div>
+            <!------code div-------->
+            <div class="code-snippet">
+                <code>
+                    <iframe
+                    src="https://carbon.now.sh/embed/ewHCqroc0uALEfc4q0Ha"
+                    style=" border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div> 
+            <!----textarea------->
+            <div class="component-intro">
+                <h2 class="h5">Textarea Element</h2>
+                <p class="text-md info">
+                    The textarea element defines a multi-line text input control. It is often used in a
+                    form, to collect user inputs like comments or reviews.             
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container">
+                <div class="input-grp">
+                    <label>Textarea</label>
+                    <textarea placeholder="enter you text here" rows="4" class="input-field" ></textarea>
+                </div>
+            </div>
+            <!------code div-------->
+            <div class="code-snippet">
+                <code>
+                    <iframe
+                    src="https://carbon.now.sh/embed/UBNwP5HAC1ugaqxr4FKP"
+                    style=" border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

@@ -8,10 +8,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-    color: #ffe4e6;
-}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -24,7 +21,7 @@ a{
 .brand-name {
     margin: 0.25rem;
     padding: 0.25rem;
-    color: #ffe4e6;
+    color: var(--light);
 }
 .logo:hover,.brand-name:hover{
     color: #e11d48;
@@ -40,4 +37,5 @@ a{
     align-items: center;
     padding: 0.5rem;
     margin: 1rem;
+    color: var(--light);
 }

@@ -1,0 +1,19 @@
+li{
+    list-style: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+.list{
+    max-width: fit-content;
+    padding: 1rem 0.5rem;
+    margin: 1rem;
+    border: 1px solid var(--basic);
+}
+.stacked-list{
+    max-width:300px ;
+}
+.stacked-list-item{
+    background-color: #f7f5f5;
+    padding:1rem;
+    margin: 0.25rem;
+}

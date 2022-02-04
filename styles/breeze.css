@@ -11,6 +11,8 @@
 @import '../Components/Cards/cards.css';
 @import '../Components/ImageComponent/image.css';
 @import '../Components/Input/input.css';
+@import '../Components/List/list.css';
+@import '../Components/Navbar/navbars.css';
 @import '../Components/Text Utilities/typography.css';
 @import './variables.css';
 

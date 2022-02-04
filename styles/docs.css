@@ -1,6 +1,23 @@
+@import './navbar.css';
+@import './sidebar.css';
+.container {
+    display: grid;
+    height: 100vh;
+}
 
+header{
+    grid-column: 1/ span 4;
+}
+aside{
+    grid-column: 1/2;
+    grid-row: 2/span 4;
+}
+section{
+    grid-row: 2/6;
+    grid-column: 2/5;
+}
 .doc-container{
-    margin: 2rem;
+    margin: 1rem 2rem;
     padding: 1rem;
 }
 .component-intro{

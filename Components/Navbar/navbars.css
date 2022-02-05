@@ -6,7 +6,7 @@ ul {
     text-decoration: none;
     color: var(--light);
   }
-  .navbar {
+  .navbars {
     display: flex;
     align-items: center;
     padding: 0.25rem;

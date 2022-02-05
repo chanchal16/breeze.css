@@ -9,19 +9,124 @@
     <title>List</title>
 </head>
 <body>
-    <h5 class="h5">Simple list</h5>
-    <ul class="list">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-        <li>Item four</li>
-    </ul>
-    <h5 class="h5">Stacked list</h5>
-    <ul class="list stacked-list">
-        <li class="stacked-list-item">Notification 1</li>
-        <li class="stacked-list-item">Notification 2</li>
-        <li class="stacked-list-item">Notification 3</li>
-        <li class="stacked-list-item">Notification 4</li>
-    </ul>
+    <div class="container">
+        <header class="navbar">
+            <span class="logo">
+              <img src="../../assets/swan-breeze.svg" alt="logo" width="35px" height="35px" />
+              <!-- <img src="../assets/logo.svg" alt="logo" width="35px" height="35px" /> -->
+            </span>
+            <h2 class="brand-name h6">
+              Breeze.css
+            </h2>
+            <div class="navbar-items">
+              <nav>
+                <a href="#" class="github-btn">
+                  <i class="fab fa-github fa-2x"></i>
+                </a>
+              </nav>
+            </div>
+        </header>
+        <aside>
+            <div class="drawer">
+              <div class="drawer-content">
+                <h2 class="text-md">Components</h2>
+                <div style="margin: auto;">
+                  <ul>
+                    <li class="drawer-items">
+                      <a href="../Alert/alert.html">Alerts</a>
+                    </li>
+                    <li class="drawer-items ">
+                      <a href="../Avatar/avatar.html"> Avatars</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Button/button.html">Button</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Cards/cards.html">Cards</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../ImageComponent/image.html">Image</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Input/input.html">Inputs</a>
+                    </li>
+                    <li class="drawer-items selected">
+                        <a href="#">List</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../Navbar/navbars.html">Navbars</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Text Utilities/typography.html">Typography</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </aside>
+        <section class="doc-container">
+            <div class="component-intro">
+                <h1 class="h2">List</h1>
+                <p class="text-md info">
+                    Lists are a continuous group of text or images. They consist of primary or supplemental 
+                    actions represented by icons or text.
+                </p>
+            </div>
+            <div class="component-intro">
+                <h2 class="h5">Simple list</h2>
+            </div>
+            <!----simple list----->
+            <!--------preview div--------->
+            <div class="example-container ">
+                <ul class="list">
+                    <li>Item one</li>
+                    <li>Item two</li>
+                    <li>Item three</li>
+                    <li>Item four</li>
+                </ul>
+            </div>
+            <!------code div-------->
+            <div class="code-snippet">
+                <code>
+                    <iframe
+                    src="https://carbon.now.sh/embed/7qBcxiuHavtREyAqRS0y"
+                    style=" border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div>
+            <!----stacked list---->
+            <div class="component-intro">
+                <h2 class="h5">Stacked list</h2>
+                <p class="text-md">
+                    Stacked list have items stacked. It is mainly used to create notifications. To use this 
+                    component just add <span class="primary-text">.stacked-list</span> to the 
+                    <span class="primary-text">&lt;ul&gt;</span> element.
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container ">
+                <ul class="list stacked-list">
+                    <li class="stacked-list-item">Notification 1</li>
+                    <li class="stacked-list-item">Notification 2</li>
+                    <li class="stacked-list-item">Notification 3</li>
+                    <li class="stacked-list-item">Notification 4</li>
+                </ul>
+            </div>
+            <!----code div----->
+            <div class="code-snippet">
+                <code>
+                    <iframe
+                    src="https://carbon.now.sh/embed/z9HR7JlzyuemhQk40V5z"
+                    style=" border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

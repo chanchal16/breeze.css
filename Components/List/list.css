@@ -3,15 +3,17 @@ li{
     margin: 1rem;
     cursor: pointer;
 }
+.stacked-list{
+    min-width:300px ;
+}
 .list{
-    max-width: fit-content;
+    width: 200px;
     padding: 1rem 0.5rem;
     margin: 1rem;
-    border: 1px solid var(--basic);
+    /* border: 1px solid var(--basic); */
+    background-color: white;
 }
-.stacked-list{
-    max-width:300px ;
-}
+
 .stacked-list-item{
     background-color: #f7f5f5;
     padding:1rem;

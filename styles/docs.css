@@ -58,3 +58,31 @@ section{
     width: 100%;
     border: none;
 }
+/*********utilities*****/
+.classes-container {
+    display: grid;
+    /* grid-template-columns: 100px 300px; */
+    grid-template-rows: repeat(6, auto);
+    /* gap: 10px; */
+}
+.classes {
+    grid-column: 1/2; 
+    /* background-color: red; */
+    padding:0.7rem;
+}
+.description {
+    grid-column: 2/6;
+    /* background-color: yellow; */
+    padding:0.7rem;
+}
+.primary-bg{
+    background-color: var(--primary);
+    color: var(--light);
+}
+.gray-bg{
+    background-color: var(--default-bg);
+}
+.light-bg{
+    background-color: var(--light);
+}
+  

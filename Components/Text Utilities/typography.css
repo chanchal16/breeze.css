@@ -45,6 +45,12 @@
     color: var(--primary-dark);
 }
 /****center text*******/
+.left-text{
+    text-align: left;
+}
 .center-text{
     text-align: center;
+}
+.right-text{
+    text-align: right;
 }

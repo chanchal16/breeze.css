@@ -41,6 +41,9 @@
 .gray-text{
     color: gray;
 }
+.gray2-text{
+    color: #333333;
+}
 .primary-text{
     color: var(--primary-dark);
 }

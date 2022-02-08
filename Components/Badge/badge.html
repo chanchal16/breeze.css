@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/breeze.css">
     <link rel="stylesheet" href="../../styles/docs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
     <title>Badge</title>
 </head>
 <body>
@@ -100,10 +101,22 @@
             </div>
             <!------code div-------->
             <div class="code-snippet">
-                <code>
-                    <iframe src="https://www.thiscodeworks.com/embed/61fb6bec6ab14d0015c32cf0" 
-                    style="width: 100%; height: 957px;" frameborder="0"></iframe>
-                </code>
+                <pre>
+                    <code class="language-html">
+                        &lt;!---number badge---&gt;
+                        &lt;div class='badge-icon'&gt;
+                            &lt;i class="fas fa-envelope fa-2x"&gt;&lt;/i&gt;
+                            &lt;div class='badge numbadge'&gt;
+                            &lt;small&gt;7&lt;/small&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!--dot badge--&gt;
+                        &lt;div class='badge-icon'&gt;
+                            &lt;i class="fas fa-bell fa-2x"&gt;&lt;/i&gt;
+                            &lt;div class='badge dotbadge'&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
             </div>
 
             <!----------badge on avatar-------------->
@@ -140,12 +153,33 @@
             </div>
             <!------code div-------->
             <div class="code-snippet">
-                <code>
-                    <iframe src="https://www.thiscodeworks.com/embed/61fb6dd66ab14d0015c32cf5" 
-                     frameborder="0"></iframe>
-                </code>
+                <pre>
+                    <code class="language-html">
+                        &lt;!---badge with online status--&gt;
+                        &lt;div class="media"&gt;
+                            &lt;img class="avatar-badge"
+                            src="https://static.diverseui.com/female-71.jpg" alt="avatar"/&gt;
+                            &lt;div class='badge online'&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!---badge with offline status--&gt;
+                        &lt;div class="media"&gt;
+                            &lt;img class="avatar-badge"
+                            src="https://static.diverseui.com/female-71.jpg" alt="" /&gt;
+                            &lt;div class='badge offline'&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;!---badge with busy status--&gt;
+                        &lt;div class="media"&gt;
+                            &lt;img class="avatar-badge"
+                            src="https://static.diverseui.com/female-71.jpg"/&gt;
+                            &lt;div class='badge busy'&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
             </div>
         </section>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

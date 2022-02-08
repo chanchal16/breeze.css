@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/breeze.css">
     <link rel="stylesheet" href="../../styles/docs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
     <title>Breeze.css</title>
 </head>
 <body>
@@ -89,13 +90,12 @@
       </div>
       <!------code div-------->
       <div class="code-snippet">
-        <code>
-          <iframe
-            src="https://carbon.now.sh/embed/LRvypvsvFxEAtAPYefjd"
-            style=" border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </code>
+        <pre>
+          <code class="language-html">
+            &lt;button class="button btn-primary"&gt;primary&lt;/button&gt;
+            &lt;button class="button btn-secondary"&gt;secondary&lt;/button&gt;
+          </code>
+        </pre>
       </div>
       <!-----links------>
       <div class="component-intro">
@@ -110,13 +110,12 @@
       </div>
       <!------code div-------->
       <div class="code-snippet">
-        <code>
-          <iframe
-            src="https://carbon.now.sh/embed/4WWdkTeI94iRPkw616pS"
-            style="border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </code>
+        <pre>
+          <code class="language-html">
+            &lt;a class="button link"&gt;LINK&lt;/a&gt;
+            &lt;a class="link-secondary"&gt;LINK&lt;/a&gt;
+          </code>
+        </pre>
       </div>
       <!---icon buttons---->
       <div class="component-intro">
@@ -133,13 +132,12 @@
       </div>
       <!------code div-------->
       <div class="code-snippet">
-        <code>
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520class%253D%2522button%2520icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2520fa-lg%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%253Cbutton%2520class%253D%2522button%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bolt%2522%253E%253C%252Fi%253E%2520Buy%2520now%253C%252Fbutton%253E"
-            style="border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </code>
+        <pre>
+          <code class="language-html">
+            &lt;a class="button icon"&gt;&lt;i class="fas fa-trash-alt fa-lg"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;button class="button btn-icon"&gt;&lt;i class="fas fa-bolt"&gt;&lt;/i&gt; Buy now&lt;/button&gt;
+          </code>
+        </pre>
       </div>
       <!----floating action btns----->
       <div class="component-intro">
@@ -160,15 +158,20 @@
       </div>
       <!------code div-------->
       <div class="code-snippet">
-        <code>
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C184%2C195%2C0%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button%2520fab%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522button%2520fab-secondary%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-pen%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
-            style=" border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-        </code>
+        <pre>
+          <code class="language-html">
+            &lt;button class="button fab"&gt;
+              &lt;i class="fas fa-plus"&gt;&lt;/i&gt;
+            &lt;/button&gt;
+            &lt;button class="button fab-secondary"&gt;
+              &lt;i class="fas fa-pen"&gt;&lt;/i&gt;
+            &lt;/button&gt;
+          </code>
+        </pre>
       </div>
     </section>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+  <script>hljs.highlightAll();</script>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/breeze.css">
     <link rel="stylesheet" href="../../styles/docs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
     <title>List</title>
 </head>
 <body>
@@ -90,13 +91,16 @@
             </div>
             <!------code div-------->
             <div class="code-snippet">
-                <code>
-                    <iframe
-                    src="https://carbon.now.sh/embed/7qBcxiuHavtREyAqRS0y"
-                    style=" border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </code>
+                <pre>
+                  <code class="language-html">
+                    &lt;ul class="list"&gt;
+                      &lt;li&gt;Item one&lt;/li&gt;
+                      &lt;li&gt;Item two&lt;/li&gt;
+                      &lt;li&gt;Item three&lt;/li&gt;
+                      &lt;li&gt;Item four&lt;/li&gt;
+                    &lt;/ul&gt;
+                  </code>
+                </pre>
             </div>
             <!----stacked list---->
             <div class="component-intro">
@@ -118,15 +122,20 @@
             </div>
             <!----code div----->
             <div class="code-snippet">
-                <code>
-                    <iframe
-                    src="https://carbon.now.sh/embed/z9HR7JlzyuemhQk40V5z"
-                    style=" border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </code>
+                <pre>
+                  <code class="language-html">
+                    &lt;ul class="list stacked-list"&gt;
+                      &lt;li class="stacked-list-item"&gt;Notification 1&lt;/li&gt;
+                      &lt;li class="stacked-list-item"&gt;Notification 2&lt;/li&gt;
+                      &lt;li class="stacked-list-item"&gt;Notification 3&lt;/li&gt;
+                      &lt;li class="stacked-list-item"&gt;Notification 4&lt;/li&gt;
+                    &lt;/ul&gt;
+                  </code>
+                </pre>
             </div>
         </section>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

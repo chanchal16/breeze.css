@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/breeze.css">
     <link rel="stylesheet" href="../../styles/docs.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
     <title>Breeze.css</title>
 </head>
 <body>
@@ -105,10 +106,28 @@
 
     <!------code div-------->
     <div class="code-snippet">
-      <code>
-        <iframe src="https://www.thiscodeworks.com/embed/61fa42deb783be0015bbae62" 
-        style="width: 100%; height: 320px;" frameborder="0"></iframe>    
-      </code>
+      <pre>
+        <code class="language-html">
+          &lt;div class="alert basic"&gt;
+            &lt;p&gt;This is basic alert!&lt;/p&gt;
+          &lt;/div&gt;
+          
+          &lt;div class='alert success'&gt;
+            &lt;span&gt;&lt;i class="far fa-check-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+            &lt;p&gt;This is success message!&lt;/p&gt;
+          &lt;/div&gt;
+          
+          &lt;div class='alert error'&gt;
+            &lt;i class="fas fa-skull"&gt;&lt;/i&gt;
+            &lt;p&gt;This is error message.&lt;/p&gt;
+          &lt;/div&gt;
+          
+          &lt;div class='alert warning'&gt;
+            &lt;i class="fas fa-exclamation-triangle"&gt;&lt;/i&gt;
+            &lt;p&gt;This is warning message.&lt;/p&gt;
+          &lt;/div&gt;
+        </code>
+      </pre>
     </div>
     <!-----with action btn------>
     <div class="component-intro">
@@ -127,12 +146,20 @@
 
     <!----code div------>
     <div class="code-snippet">
-      <code>
-        <iframe src="https://www.thiscodeworks.com/embed/61fa7995b783be0015bbaea1"
-         style="width: 100%; height: 151px;" frameborder="0"></iframe>
-      </code>
+      <pre>
+        <code class="language-html">
+          &lt;div class='alert success'&gt;
+            &lt;span&gt;&lt;i class="far fa-check-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+              &lt;p&gt;This is success message!&lt;/p&gt;
+            &lt;span class="ml"&gt;&lt;i class="fas fa-times "&gt;&lt;/i&gt;&lt;/span&gt;
+          &lt;/div&gt; 
+        </code>
+      </pre>
     </div>
   </section>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+  <script>hljs.highlightAll();</script>
 </body> 
 </html> 

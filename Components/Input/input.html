@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/breeze.css">
     <link rel="stylesheet" href="../../styles/docs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
     <title>Input</title>
 </head>
 <body>
@@ -98,13 +99,19 @@
             </div>
             <!------code div-------->
             <div class="code-snippet">
-                <code>
-                    <iframe
-                    src="https://carbon.now.sh/embed/ewHCqroc0uALEfc4q0Ha"
-                    style=" border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </code>
+                <pre>
+                    <code class="language-html">
+                        &lt;div class="input-grp"&gt;
+                            &lt;label&gt;Username&lt;/label&gt;
+                            &lt;input type="text" class="input-field" /&gt;
+                        &lt;/div&gt;
+                        &lt;div class="input-grp err"&gt;
+                            &lt;label&gt;Email*&lt;/label&gt;
+                            &lt;input type="email" class="input-field" placeholder="johnDoe" /&gt;
+                            &lt;small&gt;Please enter a valid email id.&lt;/small&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
             </div> 
             <!----textarea------->
             <div class="component-intro">
@@ -123,15 +130,18 @@
             </div>
             <!------code div-------->
             <div class="code-snippet">
-                <code>
-                    <iframe
-                    src="https://carbon.now.sh/embed/UBNwP5HAC1ugaqxr4FKP"
-                    style=" border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </code>
+                <pre>
+                    <code class="language-html">
+                        &lt;div class="input-grp"&gt;
+                            &lt;label&gt;Textarea&lt;/label&gt;
+                            &lt;textarea placeholder="enter you text here" rows="4" class="input-field"&gt;&lt;/textarea&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
             </div>
         </section>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

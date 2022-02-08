@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/breeze.css">
     <link rel="stylesheet" href="../../styles/docs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
     <title>Navbar</title>
 </head>
 <body>
@@ -93,10 +94,20 @@
       </div>
       <!------code div-------->
       <div class="code-snippet">
-        <code>
-          <iframe src="https://www.thiscodeworks.com/embed/61fe277833c09d0015b44e42" 
-          style="width: 100%; height: 346px;" frameborder="0"></iframe>
-        </code>
+        <pre>
+          <code class="language-html">
+            &lt;header class="navbars"&gt;
+              &lt;a href="#" class="menu-icon"&gt;
+                  &lt;img src="path-to-the-logo" width="35px" height="35px" alt="logo" /&gt;
+              &lt;/a&gt;
+              &lt;nav&gt;
+                  &lt;button class="login-btn"&gt;
+                      Login
+                  &lt;/button&gt;
+              &lt;/nav&gt;
+            &lt;/header&gt;
+          </code>
+        </pre>
       </div>
        <!---nav with links on left side---->
       <div class="component-intro">
@@ -125,10 +136,28 @@
       </div>
       <!------code div-------->
       <div class="code-snippet">
-        <code>
-          <iframe src="https://www.thiscodeworks.com/embed/61fe283033c09d0015b44e45" 
-          style="width: 100%; height: 320px;" frameborder="0"></iframe>
-        </code>
+        <pre>
+          <code class="language-html">
+            &lt;header class="navbars"&gt;
+              &lt;a href="#" class="menu-icon"&gt;
+                  &lt;img src="path-of-the-image" width="35px" height="35px" alt="logo" /&gt;
+              &lt;/a&gt;
+              &lt;nav&gt;
+                  &lt;ul&gt;
+                      &lt;li class="list-items"&gt;
+                          &lt;a href=""&gt;Home&lt;/a&gt;
+                      &lt;/li&gt;
+                      &lt;li class="list-items"&gt;
+                          &lt;a href=""&gt;About&lt;/a&gt;
+                      &lt;/li&gt;
+                      &lt;li class="list-items"&gt;
+                          &lt;a href=""&gt;Contact&lt;/a&gt;
+                      &lt;/li&gt;
+                  &lt;/ul&gt;
+              &lt;/nav&gt;
+            &lt;/header&gt;
+          </code>
+        </pre>
       </div>
       <!--nav with icon links--->
       <div class="component-intro">
@@ -159,12 +188,34 @@
       </div>
       <!------code div-------->
       <div class="code-snippet">
-        <code>
-          <iframe src="https://www.thiscodeworks.com/embed/61fe288a33c09d0015b44e47" 
-          style="width: 100%; height: 346px;" frameborder="0"></iframe>
-        </code>
+        <pre>
+          <code class="language-html">
+            &lt;header class="navbars"&gt;
+              &lt;a href="#" class="menu-icon"&gt;
+                  &lt;img src="path-of-the-image" width="35px" height="35px" alt="logo" /&gt;
+              &lt;/a&gt;
+              &lt;nav&gt;
+                  &lt;ul&gt;
+                      &lt;li class="list-items"&gt;
+                          &lt;i class="fas fa-envelope fa-lg"&gt;&lt;/i&gt;
+                      &lt;/li&gt;
+                      &lt;li class="list-items"&gt;
+                          &lt;i class="fas fa-bell fa-lg"&gt;&lt;/i&gt;
+                      &lt;/li&gt;
+                  &lt;/ul&gt;
+              &lt;/nav&gt;
+              &lt;a href="#" class="user "&gt;
+                  &lt;span&gt;
+                      &lt;i class="far fa-user-circle fa-2x"&gt;&lt;/i&gt;
+                  &lt;/span&gt;
+              &lt;/a&gt;
+            &lt;/header&gt;
+          </code>
+        </pre>
       </div>
     </section>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+  <script>hljs.highlightAll();</script>
 </body>
 </html>

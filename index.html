@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
+    <link rel="stylesheet" href="./index.css" class="stylesheet">
+    
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="hero-section">
+            <h3>Design your next project faster and better.</h3>
+            <p>A simple, modular and accessible component library that gives you the building 
+                blocks you need to build your applications.</p>
+            <div class="btn-div">
+                <button id="btnId">
+                    Installation</button>
+                <button class="secondary-btn">Github</button>
+            </div>       
+    </div>
+    <!----installation------>
+    <section class="installation" id="sectiondiv">
+        <h4 class="install-heading">Installation Guide</h4>
+        <p class="install-desc">Copy the Link given below and paste it in the &lt;head&gt; tag of 
+        your html, above all other style sheets.<br>  So that you can style your components by just 
+        adding class names to your html elements.
+        </p>
+         <!--code-snippet---->
+         <div class="code-div">
+            <pre>
+                <code class="language-html"> &lt;link rel='stylesheet' href='path-to-the-file' &gt;</code>
+            </pre>
+        </div>
+        <!-----starter template--->
+        <div class="starter-template">
+            <h4 class="template-heading">Starter Template</h4>
+            <p class="template-desc">
+                Be sure to have your pages set up with the latest design and development standards. 
+                That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this:
+            </p>
+            <a class="doc-btn" href='./Components/Alert/alert.html'>Documentation</a>
+            
+        </div>
+        <!--code-snippet---->
+        <div class="code-div">
+            <img src="./assets/carbon.svg" alt="code" class="res-image" />
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

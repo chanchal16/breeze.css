@@ -1,0 +1,119 @@
+@import './styles/variables.css';
+@import './Components/ImageComponent/image.css';
+html {
+    font-size: 62.5%;
+  }
+  
+  @media only screen and (min-width: 800px) {
+    html {
+      font-size: 75%;
+    }
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    html {
+      font-size: 100%;
+    }
+  }
+  
+  *,
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+  }
+  
+  .hero-section {
+    /* background-color: blueviolet; */
+    min-height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--gray); 
+    padding: 5rem;
+  }
+  
+  h3 {
+    /* font-size: 3.2em; */
+    font-size: 3.2em;
+    margin-bottom: 1.2rem;
+  }
+  
+  p {
+    font-size: 1.8em;
+    font-weight: 200;
+    margin-bottom: 2.4rem;
+    /* padding: 0 1rem; */
+  }
+  
+  button {
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--primary);
+    margin:  0.4rem;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: var(--primary-dark);
+  }
+  
+  .secondary-btn{
+    background-color: var(--secondary);
+  }
+  .secondary-btn:hover{
+    background-color: var(--secondary-dark);
+  }
+  /*****installation section*****/
+  .installation{
+    margin: auto;
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--gray); 
+
+  }
+  .install-heading,.template-heading{
+    font-size: 2em;
+    margin-bottom: 1.2rem;
+  }
+  .install-desc,.template-desc{
+    font-size: 1.2em;
+  }
+  .starter-template{
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  /***code div****/
+.code-div{
+  box-sizing: border-box;
+  width: 60%;  
+  margin: auto;
+}
+.doc-btn{
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 0.4rem;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+.doc-btn:hover{
+  color: black;
+  background-color: var(--primary);
+}

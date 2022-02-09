@@ -1,5 +1,4 @@
 @import './variables.css';
-
 ul {
     margin: 0;
     padding: 0;
@@ -7,6 +6,22 @@ ul {
 .drawer {
     width: 200px;
     background-color: #fff1f2;
+}
+
+@media only screen and (max-width: 500px) {
+    .drawer{
+        display: none;
+    }
+    .active{
+        display: block;
+        position: absolute;
+        width: 100vh;  
+        height: 30vh; 
+        top: 3rem; 
+        z-index: 99999;
+        /* transition: left 2s ease; */
+        overflow-y: scroll;      
+    }
 }
 .drawer-content {
     padding: 1rem 0.5rem;

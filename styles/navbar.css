@@ -18,6 +18,13 @@
     font-family: 'Amarante', cursive;
     
 }
+#sidenav{
+    /* visibility: hidden; */
+    display: none;
+    color: var(--light);
+    padding: 0 0.4rem;
+}
+
 .brand-name {
     margin: 0.25rem;
     padding: 0.25rem;
@@ -38,4 +45,13 @@
     /* padding: 0.5rem; */
     /* margin: 1rem; */
     color: var(--light);
+}
+@media only screen and (max-width: 500px) {
+    #sidenav{
+        /* visibility: visible; */
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
 }

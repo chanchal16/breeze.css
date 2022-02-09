@@ -67,12 +67,17 @@ html {
   button:hover{
     background-color: var(--primary-dark);
   }
+ 
   
   .secondary-btn{
     background-color: var(--secondary);
   }
   .secondary-btn:hover{
     background-color: var(--secondary-dark);
+  }
+  .secondary-btn a{
+    text-decoration: none;
+    color: black;
   }
   /*****installation section*****/
   .installation{

@@ -15,8 +15,8 @@ ul {
     .active{
         display: block;
         position: absolute;
-        width: 100vh;  
-        height: 30vh; 
+        width: 100vw;   
+        height: 25vh; 
         top: 3rem; 
         z-index: 99999;
         /* transition: left 2s ease; */

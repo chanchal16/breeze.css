@@ -57,12 +57,12 @@
     gap: 10px;
 }
 /****floating action btns*****/
-.fab{
+.fab-primary{
     border-radius: 50%;
     padding: 14px;
     background-color: var(--primary);
 }
-.fab:hover{
+.fab-primary:hover{
     background-color: var(--primary-dark);
 }
 .fab-secondary{

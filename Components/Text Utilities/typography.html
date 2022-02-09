@@ -11,6 +11,7 @@
 <body>
     <div class="container">
         <header class="navbar">
+          <span id="sidenav"><i class="fas fa-bars fa-lg"></i></span>
             <span class="logo">
               <img src="../../assets/swan-breeze.svg" alt="logo" width="35px" height="35px" />
               <!-- <img src="../assets/logo.svg" alt="logo" width="35px" height="35px" /> -->
@@ -27,9 +28,9 @@
             </div>
         </header>
         <aside>
-            <div class="drawer">
+            <div class="drawer" id="sidebar">
             <div class="drawer-content">
-                <h2 class="text-md">Components</h2>
+              <h2 class="text-md"><strong>Components</strong></h2>
                 <div style="margin: auto;">
                 <ul>
                     <li class="drawer-items">
@@ -72,7 +73,7 @@
             <h1 class="h2">Typography</h1>
             <p class="text-md info">
               The Typography component makes it easy to apply a default set of font weights and 
-              sizes in your application.
+              sizes in your application. You can use the following utility classes.
             </p>
           </div>
           <div class="classes-container">
@@ -100,6 +101,18 @@
             <div class="description light-bg">Aligns text to the left, center and right respectively.</div>
           </div>
         </section>
-    </div>   
+        <!-------footer--->
+        <footer class="footer">
+          <p class="text-md footer-header">made by &nbsp;<span>Chanchal</span></p>
+          <div class="socials">
+            <a class="links" href="" ><i class="fab fa-github fa-2x"></i></a>
+            <a class="links" href="" ><i class="fab fa-twitter fa-2x"></i></a>
+            <a class="links" href="" ><i class="fab fa-linkedin-in fa-2x"></i></a>
+          </div>
+          <p class="text-xs footer-header">© 2022 &nbsp;<span>Breeze.css</span></p>
+        </footer>
+    </div>
+    
+    <script src="../../index.js"></script>
 </body>
 </html>

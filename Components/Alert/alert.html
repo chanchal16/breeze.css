@@ -106,10 +106,15 @@
     </div>
 
     <!------code div-------->
+    
     <div class="code-snippet">
-      <button id="copybtn">copy</button>
+      <span class="copy" id="copybtn"><i class="far fa-copy fa-lg"></i>
+        <span class="tool_tip" id="tooltip">tooltip</span>
+      </span>
+      
+      <!-- <span class="copied" id="copiedbtn"><i class="far fa-check-circle"></i></span> -->
       <pre>
-        <code class="language-html" id="mycode">
+        <code class="language-html mycode" >
           &lt;div class="alert basic"&gt;
             &lt;p&gt;This is basic alert!&lt;/p&gt;
           &lt;/div&gt;
@@ -148,8 +153,11 @@
 
     <!----code div------>
     <div class="code-snippet">
+      <span class="copy" id="copybtn"><i class="far fa-copy fa-lg"></i>
+        <span class="tool_tip" id="tooltip">tooltip</span>
+      </span>
       <pre>
-        <code class="language-html">
+        <code class="language-html mycode">
           &lt;div class='alert success'&gt;
             &lt;span&gt;&lt;i class="far fa-check-circle"&gt;&lt;/i&gt;&lt;/span&gt;
               &lt;p&gt;This is success message!&lt;/p&gt;

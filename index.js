@@ -1,3 +1,4 @@
+// scroll to installation section
 let btn = document.getElementById('btnId')
 const scrollDiv = ()=>{
     console.log('click')
@@ -17,14 +18,19 @@ const toggleSideNav = ()=>{
 hamburger && hamburger.addEventListener('click',toggleSideNav);
 
 /******copy to clipboard** */
-let code = document.getElementById('mycode').innerHTML;
+let code = document.querySelector('.mycode').innerHTML;
 let copyBtn = document.getElementById('copybtn');
+let toolTip = document.getElementById('tooltip')
 
 const copyToClipboard = ()=>{
-     /* For mobile devices */
-     let modifiedCode = code.replace(/&lt;/g,'<').replace(/&gt;/g,'>')
-   /* Copy the text inside the text field */
- navigator.clipboard.writeText(modifiedCode).then(()=>console.log('copied'));
+  let modifiedCode = code.replace(/&lt;/g,'<').replace(/&gt;/g,'>')
+   /* Copy the code */
+  navigator.clipboard.writeText(modifiedCode).then(()=>console.log('copied'));
+  toolTip.innerHTML="copied!"
+  toolTip.classList.add('showtooltip');
+  setTimeout(() => {
+    toolTip.className = toolTip.className.replace("showtooltip", "");
+  }, 2000);
 
 }
 copyBtn && copyBtn.addEventListener('click',copyToClipboard);

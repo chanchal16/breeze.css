@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/breeze.css">
+    <link rel="stylesheet" href="../../styles/docs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
+    <title>Breeze.css</title>
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <span id="sidenav"><i class="fas fa-bars fa-lg"></i></span>
+              <span class="logo">
+                <img src="../../assets/swan-breeze.svg" alt="logo" width="35px" height="35px" />
+                <!-- <img src="../assets/logo.svg" alt="logo" width="35px" height="35px" /> -->
+              </span>
+              <a href="../../index.html" class="brand-name h6">
+                Breeze.css
+              </a>
+              <div class="navbar-items">
+                <nav>
+                  <a href="https://github.com/chanchal16/breeze.css" class="github-btn" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                </nav>
+              </div>
+        </header>
+        <aside>
+            <div class="drawer" id="sidebar">
+              <div class="drawer-content">
+                <h2 class="text-md"><strong>Components</strong></h2>
+                <div style="margin: auto;">
+                  <ul>
+                    <li class="drawer-items">
+                      <a href="../Alert/alert.html">Alerts</a>
+                    </li>
+                    <li class="drawer-items ">
+                      <a href="../Avatar/avatar.html"> Avatars</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Button/button.html">Button</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Cards/cards.html">Cards</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../ImageComponent/image.html">Image</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Input/input.html">Inputs</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../List/list.html">List</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../Navbar/navbars.html">Navbars</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../Ratings/ratings.html">Ratings</a>
+                    </li>
+                    <li class="drawer-items selected">
+                        <a href="">Slider</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Text Utilities/typography.html">Typography</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </aside>
+        <section class="doc-container">
+            <div class="component-intro">
+                <h1 class="h2">Slider</h1>
+                <p class="text-md info">
+                    A range slider is an input field that can be used to select a numeric value
+                    within a given range. They are probably used for videos,audios, price in shopping 
+                    site, etc.
+                </p>
+            </div>
+            <!--default---->
+            <div class="component-intro">
+                <h2 class="h5">Simple list</h2>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container ">
+                <input type="range" min="0" max="100" value="50" />
+            </div>
+            <!---code snippet---->
+            <div class="code-snippet">
+                <span class="copy" id="copybtn"><i class="far fa-copy fa-lg"></i>
+                    <span class="tool_tip" id="tooltip">tooltip</span>
+                </span>
+                <pre>
+                    <code class="language-html mycode">
+                        &lt;input type="range" min="0" max="100" value="50" /&gt;
+                    </code>
+                </pre>
+            </div>
+            <!---colored------>
+            <div class="component-intro">
+                <h2 class="h5">Styled slider</h2>
+                <p>There are two variants. You can use them by simply adding class 
+                    <span class="primary-text">.accented or .slider</span></p>.
+            </div>
+            <!--------preview div--------->
+            <div class="example-container ">
+                <input class="accented" type="range" min="0" max="100" value="50" />
+                <input class="slider" type="range" min="0" max="100" value="50" />
+            </div>
+            <div class="code-snippet">
+                <span class="copy" id="copybtn"><i class="far fa-copy fa-lg"></i>
+                    <span class="tool_tip" id="tooltip">tooltip</span>
+                </span>
+                <pre>
+                    <code class="language-html mycode">
+                        &lt;input class="accented" type="range" min="0" max="100" value="50" /&gt;
+                        &lt;input class="slider" type="range" min="0" max="100" value="50" /&gt;
+                    </code>
+                </pre>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+    <script>hljs.highlightAll();</script>
+    <script src="../../index.js"></script>
+</body>
+</html>

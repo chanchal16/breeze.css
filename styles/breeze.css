@@ -13,6 +13,8 @@
 @import '../Components/Input/input.css';
 @import '../Components/List/list.css';
 @import '../Components/Navbar/navbars.css';
+@import '../Components/Ratings/ratings.css';
+@import '../Components/Slider/slider.css';
 @import '../Components/Text Utilities/typography.css';
 @import './variables.css';
 

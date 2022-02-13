@@ -1,0 +1,17 @@
+/* ***star rating */
+.checked{
+    color: var(--warn);
+}
+.rating{
+    color: rgba(0, 0, 0, 0.26);;
+}
+/* ****badge rating**** */
+.badge-rating{
+    background-color: var(--success);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.badge-star{
+   color: white; 
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/breeze.css">
+    <link rel="stylesheet" href="../../styles/docs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
+    <title>Breeze.css</title>
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <span id="sidenav"><i class="fas fa-bars fa-lg"></i></span>
+              <span class="logo">
+                <img src="../../assets/swan-breeze.svg" alt="logo" width="35px" height="35px" />
+              </span>
+              <a href="../../index.html" class="brand-name h6">
+                Breeze.css
+              </a>
+              <div class="navbar-items">
+                <nav>
+                  <a href="https://github.com/chanchal16/breeze.css" class="github-btn" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                </nav>
+              </div>
+        </header>
+        <aside>
+            <div class="drawer" id="sidebar">
+              <div class="drawer-content">
+                <h2 class="text-md"><strong>Components</strong></h2>
+                <div style="margin: auto;">
+                  <ul>
+                    <li class="drawer-items">
+                      <a href="../Alert/alert.html">Alerts</a>
+                    </li>
+                    <li class="drawer-items ">
+                      <a href="../Avatar/avatar.html"> Avatars</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Button/button.html">Button</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Cards/cards.html">Cards</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../ImageComponent/image.html">Image</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Input/input.html">Inputs</a>
+                    </li>
+                    <li class="drawer-items ">
+                        <a href="../List/list.html">List</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../Navbar/navbars.html">Navbars</a>
+                    </li>
+                    <li class="drawer-items selected">
+                        <a href="">Ratings</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../Slider/slider.html">Slider</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Text Utilities/typography.html">Typography</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </aside>
+        <section class="doc-container">
+            <h1 class="h2">Ratings</h1>
+            <p class="text-md info">
+              Ratings provide insight regarding others' opinions and experiences.You will probably see 
+              this in reviews section.
+            </p>
+            <!---star ratings-->
+            <div class="component-intro">
+              <h2 class="h5">Star Rating</h2>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container ">
+              <span class=" checked"><i class="fas fa-star"></i></span>
+              <span class=" checked"><i class="fas fa-star"></i></span>
+              <span class=" checked"><i class="fas fa-star"></i></span>
+              <span class="rating"><i class="fas fa-star"></i></span>
+              <span class="rating"><i class="fas fa-star"></i></span>
+            </div>
+            <!------code snippet-------->
+            <div class="code-snippet">
+              <span class="copy" id="copybtn"><i class="far fa-copy fa-lg"></i>
+                  <span class="tool_tip" id="tooltip">tooltip</span>
+              </span>
+              <pre>
+                  <code class="language-html mycode">
+                    &lt;span class=" checked"&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;/span&gt;
+                    &lt;span class=" checked"&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;/span&gt;
+                    &lt;span class=" checked"&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;/span&gt;
+                    &lt;span class="rating"&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;/span&gt;
+                    &lt;span class="rating"&gt;&lt;i class="fas fa-star"&gt;&lt;/i&gt;&lt;/span&gt;
+                  </code>
+              </pre>
+            </div>
+            <!-----rating badge------>
+            <div class="component-intro">
+              <h2 class="h5">Badge Rating</h2>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container ">
+              <div class="badge-rating">
+                <span class="text-sm">4.2</span>
+                <span class="badge-star"><i class="fas fa-star fa-sm"></i></span>
+              </div>
+            </div>
+            <!---code snippet---->
+            <div class="code-snippet">
+              <span class="copy" id="copybtn"><i class="far fa-copy fa-lg"></i>
+                  <span class="tool_tip" id="tooltip">tooltip</span>
+              </span>
+              <pre>
+                  <code class="language-html mycode">
+                    &lt;div class="badge-rating"&gt;
+                      &lt;span class="text-sm"&gt;4.2&lt;/span&gt;
+                      &lt;span class="badge-star"&gt;&lt;i class="fas fa-star fa-sm"&gt;&lt;/i&gt;&lt;/span&gt;
+                    &lt;/div&gt;
+                  </code>
+              </pre>
+            </div>
+        </div>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+    <script>hljs.highlightAll();</script>
+    <script src="../../index.js"></script>
+</body>
+</html>

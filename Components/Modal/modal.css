@@ -1,0 +1,47 @@
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+  }
+  .show-modal {
+    display: block;
+  }
+  .dialog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 300px;
+    background-color: white;
+  }
+  /***simple dialog*****/
+  .dialog-heading {
+    margin: 20px;
+  }
+ 
+  /*******alert dialog****/
+  .alertbox {
+    padding: 1rem;
+  }
+  .dialog-action {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .action-btns {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: var(--primary);
+    cursor: pointer;
+  }
+  .action-btns:hover {
+    background-color: var(--light);
+  }

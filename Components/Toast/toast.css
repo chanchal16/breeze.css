@@ -1,0 +1,15 @@
+.toast{
+    width: fit-content; 
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding:  12px;
+    color:white;
+}
+.ml{
+    margin-left: auto;
+    cursor: pointer;
+}
+.basic{
+    background-color: var(--gray);
+}

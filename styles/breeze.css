@@ -9,6 +9,7 @@
 @import '../Components/Badge/badge.css';
 @import '../Components/Button/button.css';
 @import '../Components/Cards/cards.css';
+@import '../Components/Grid/grid.css';
 @import '../Components/ImageComponent/image.css';
 @import '../Components/Input/input.css';
 @import '../Components/List/list.css';
@@ -17,6 +18,7 @@
 @import '../Components/Slider/slider.css';
 @import '../Components/Text Utilities/typography.css';
 @import './variables.css';
+
 
 
 

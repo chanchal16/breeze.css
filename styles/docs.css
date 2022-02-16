@@ -79,10 +79,7 @@ footer {
     margin: 2rem auto;
    overflow: auto;    
 }
-pre, code {
-    /* white-space: pre-wrap; */
-    margin-left: -2.5rem; 
-}
+
 .copy{
    position: absolute;
    top: 1rem;

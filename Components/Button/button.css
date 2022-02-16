@@ -59,7 +59,7 @@
 /****floating action btns*****/
 .fab-primary{
     border-radius: 50%;
-    padding: 14px;
+    padding: 0.8rem 1rem;
     background-color: var(--primary);
 }
 .fab-primary:hover{
@@ -67,6 +67,6 @@
 }
 .fab-secondary{
     border-radius: 50%;
-    padding: 14px;
+    padding: 0.8rem 0.9rem;;
     background-color:var(--secondary) ;
 }

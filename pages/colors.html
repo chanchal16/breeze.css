@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/breeze.css">
+    <link rel="stylesheet" href="../styles/docs.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
+    <title>Breeze.css</title>
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <span id="sidenav"><i class="fas fa-bars fa-lg"></i></span>
+              <span class="logo">
+                <img src="../assets/swan-breeze.svg" alt="logo" width="35px" height="35px" />
+              </span>
+              <a href="../../index.html" class="brand-name h6">
+                Breeze.css
+              </a>
+              <div class="navbar-items">
+                <nav>
+                  <a href="https://github.com/chanchal16/breeze.css" class="github-btn" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                </nav>
+              </div>
+          </header>
+          <aside>
+            <div class="drawer" id="sidebar">
+            <div class="drawer-content">
+              <h2 class="text-md"><strong>Components</strong></h2>
+                <div style="margin: auto;">
+                <ul>
+                    <li class="drawer-items">
+                      <a href="../Alert/alert.html">Alerts</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Avatar/avatar.html"> Avatars</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Button/button.html">Button</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Cards/cards.html">Cards</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Grid/grid.html">Grid</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../ImageComponent/image.html">Image</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Input/input.html">Inputs</a>
+                    </li>
+                    <li class="drawer-items ">
+                      <a href="../List/list.html">List</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Modal/modal.html">Modal</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Navbar/navbars.html">Navbars</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Toast/toast.html">Toast</a>
+                    </li>
+                    <li class="drawer-items selected">
+                    <a href="">Typography</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </div>
+        </aside>
+        <section class="doc-container">
+            <div class="component-intro">
+                <h1 class="h2">Palette colors</h1>
+                <p class="text-md info">
+                    The palette enables you to modify the color of the components to suit your brand. The default
+                    palette consists the following colors.
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container">
+                <div class="palette">
+                    <div class="light">
+                        Light
+                        <span>#ffe4e6</span>
+                    </div>
+                    <div class="primary">
+                        Primary
+                        <span>#fb7185</span>
+                    </div>
+                    <div class="primary-dark">
+                        Primary Dark
+                        <span>#f43f5e</span>
+                    </div>
+                    <div class="secondary">
+                        Secondary
+                        <span>#34d399</span>
+                    </div>
+                    <div class="secondary-dark">
+                        Secondary Dark
+                        <span>#10b981</span>
+                    </div>
+                    <div class="error">
+                        Danger
+                        <span>#F44336</span>
+                    </div>
+                    <div class="success">
+                        Success
+                        <span>#4CAF50</span>
+                    </div>
+                    <div class="warning">
+                        Warning
+                        <span>#FF9800</span>
+                    </div>      
+                </div>
+            </div>
+            <!-----customizing theme------>
+            <div class="component-intro">
+                <h2 class="h5">Customizing theme</h2>
+                <p class="text-md info">
+                    Although <span class="primary-text">Breeze</span> aims at satisfying it's user's need, as much as possible, There 
+                    are times, when the pre-defined styles are not sufficient.
+                    <br></br>
+                    In order to override base classes, users can add their own class to the
+                     pre-existing classes, and style them seperately.
+                     <span class="primary-text">Note: User can style either by internal css or external
+                          css.</span>
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container ">
+                <button class="button mystyle">Customize</button>
+                <style>
+                    .mystyle{
+                        background-color: blueviolet;
+                    }
+                </style>
+            </div>
+        </section>
+        <!----footer---->
+        <footer class="footer">
+            <p class="text-md footer-header">made by &nbsp;<span>Chanchal</span></p>
+            <div class="socials">
+            <a class="links" href="https://github.com/chanchal16" target="_blank">
+                <i class="fab fa-github fa-2x"></i></a>
+            <a class="links" href="https://twitter.com/chanchal16_" target="_blank">
+                <i class="fab fa-twitter fa-2x"></i></a>
+            <a class="links" href="https://www.linkedin.com/in/rajput07/" target="_blank">
+                <i class="fab fa-linkedin-in fa-2x"></i></a>
+            </div>
+            <p class="text-xs footer-header">© 2022 &nbsp;<span>Breeze.css</span></p>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+    <script>hljs.highlightAll();</script>
+    <script src="../../index.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+.palette{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 1rem; */
+}
+
+.palette > div{
+    width: 120px;
+    height: 120px;
+    color: white;
+    padding: .5rem;
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.palette .light{
+    background-color: var(--light);
+    color: var(--gray);
+}
+.palette .primary{
+    background-color: var(--primary);
+}
+.palette .primary-dark{
+    background-color: var(--primary-dark);
+}
+
+.palette .secondary{
+    background-color: var(--secondary);
+    
+}
+.palette .secondary-dark{
+    background-color: var(--secondary-dark);
+}

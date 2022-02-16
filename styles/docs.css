@@ -79,7 +79,10 @@ footer {
     margin: 2rem auto;
    overflow: auto;    
 }
-
+code{
+    /* white-space: pre-wrap; */
+    margin-left: -2.5rem;
+}
 .copy{
    position: absolute;
    top: 1rem;
@@ -114,26 +117,14 @@ footer {
 .light-bg{
     background-color: var(--light);
 }
-/*******tooltip******/ 
-.tool_tip {
-    display: none;
-    width: 50px; 
-    font-size: 0.7rem; 
-    background-color: rgba(0, 0, 0, 0.7); 
-    color: white;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px;
-    position: absolute; 
-    z-index: 1; 
-    opacity: 1;
-    transition: opacity 0.3s; 
-}
-  
-.showtooltip {
-    display: block;
-    top: -1rem;
-    right: 0; 
+/*******back to top******/
+#backToTop{
+    /* margin-left: 95%; */
+    display: none;   
+    position: fixed; /* Fixed/sticky position */
+    bottom: 1rem; 
+    right: 1rem; 
+    z-index: 99;
 }
 
 @media only screen and (max-width: 500px) {

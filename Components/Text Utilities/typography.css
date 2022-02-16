@@ -3,7 +3,7 @@
     line-height: 1.2;
     font-weight: 500;
 }
-.text-md, .text-sm,.text-xs{
+.text-lg,.text-md, .text-sm,.text-xs{
     margin: 0.5rem 0;
     line-height: normal;
 }
@@ -27,6 +27,9 @@
     font-size: 1.5rem;
 }
 /*****text sizes********/
+.text-lg{
+    font-size: 1.3rem;
+}
 .text-md{
     font-size: 1.1rem;
     

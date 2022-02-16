@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../styles/breeze.css">
     <link rel="stylesheet" href="../../styles/docs.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
-    <title>Badge</title>
+    <title>Breeze.css</title>
 </head>
 <body>
     <div class="container">
@@ -15,7 +14,6 @@
             <span id="sidenav"><i class="fas fa-bars fa-lg"></i></span>
             <span class="logo">
               <img src="../../assets/swan-breeze.svg" alt="logo" width="35px" height="35px" />
-              <!-- <img src="../assets/logo.svg" alt="logo" width="35px" height="35px" /> -->
             </span>
             <a href="../../index.html" class="brand-name h6">
               Breeze.css
@@ -74,9 +72,6 @@
                                 <a href="../Cards/cards.html">Cards</a>
                             </li>
                             <li class="drawer-items">
-                                <a href="../Grid/grid.html">Grid</a>
-                            </li>
-                            <li class="drawer-items">
                                 <a href="../ImageComponent/image.html">Image</a>
                             </li>
                             <li class="drawer-items">
@@ -127,13 +122,14 @@
             </div>
             <!--------preview div--------->
             <div class="example-container">
+                <!--number badge-->
                 <div class='badge-icon'>
                     <i class="fas fa-envelope fa-2x"></i>
                     <div class='badge numbadge'>
                     <small>7</small>
                     </div>
                 </div>
-                
+                <!--dot badge--->
                 <div class='badge-icon'>
                     <i class="fas fa-bell fa-2x"></i>
                     <div class='badge dotbadge'></div>
@@ -141,25 +137,7 @@
             </div>
             <!------code div-------->
             <div class="code-snippet">
-                <span class="copy" id="copybtn"><i class="far fa-copy fa-lg"></i>
-                    <span class="tool_tip" id="tooltip">tooltip</span>
-                </span>
-                <pre>
-                    <code class="language-html mycode">
-                        &lt;!---number badge---&gt;
-                        &lt;div class='badge-icon'&gt;
-                            &lt;i class="fas fa-envelope fa-2x"&gt;&lt;/i&gt;
-                            &lt;div class='badge numbadge'&gt;
-                            &lt;small&gt;7&lt;/small&gt;
-                            &lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;!--dot badge--&gt;
-                        &lt;div class='badge-icon'&gt;
-                            &lt;i class="fas fa-bell fa-2x"&gt;&lt;/i&gt;
-                            &lt;div class='badge dotbadge'&gt;&lt;/div&gt;
-                        &lt;/div&gt;
-                    </code>
-                </pre>
+                
             </div>
 
             <!----------badge on avatar-------------->
@@ -173,54 +151,21 @@
             <!--------preview div--------->
             <div class="example-container">
                 <div class="media">
-                    <img class="avatar-badge"
-                        src="https://i.pravatar.cc/150?img=60"
-                        alt=""
-                    />
+                    <img class="avatar-badge" src="https://i.pravatar.cc/150?img=60" alt=""/>
                     <div class='badge online'></div>
                 </div>
                 <div class="media">
-                    <img class="avatar-badge"
-                        src="https://i.pravatar.cc/150?img=60"
-                        alt=""
-                    />
+                    <img class="avatar-badge" src="https://i.pravatar.cc/150?img=60" alt="" />
                     <div class='badge offline'></div>
                 </div>
                 <div class="media">
-                    <img class="avatar-badge"
-                        src="https://i.pravatar.cc/150?img=60"
-                        alt=""
-                    />
+                    <img class="avatar-badge" src="https://i.pravatar.cc/150?img=60" alt=""/>
                     <div class='badge busy'></div>
                 </div>
             </div>
             <!------code div-------->
             <div class="code-snippet">
-                <span class="copy" id="copybtn"><i class="far fa-copy fa-lg"></i>
-                    <span class="tool_tip" id="tooltip">tooltip</span>
-                </span>
-                <pre>
-                    <code class="language-html mycode">
-                        &lt;!---badge with online status--&gt;
-                        &lt;div class="media"&gt;
-                            &lt;img class="avatar-badge"
-                            src="https://static.diverseui.com/female-71.jpg" alt="avatar"/&gt;
-                            &lt;div class='badge online'&gt;&lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;!---badge with offline status--&gt;
-                        &lt;div class="media"&gt;
-                            &lt;img class="avatar-badge"
-                            src="https://static.diverseui.com/female-71.jpg" alt="" /&gt;
-                            &lt;div class='badge offline'&gt;&lt;/div&gt;
-                        &lt;/div&gt;
-                        &lt;!---badge with busy status--&gt;
-                        &lt;div class="media"&gt;
-                            &lt;img class="avatar-badge"
-                            src="https://static.diverseui.com/female-71.jpg"/&gt;
-                            &lt;div class='badge busy'&gt;&lt;/div&gt;
-                        &lt;/div&gt;
-                    </code>
-                </pre>
+                
             </div>
         </section>
         <!----footer---->
@@ -238,8 +183,6 @@
         </footer>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
-    <script>hljs.highlightAll();</script>
     <script src="../../index.js"></script>
 </body>
 </html>

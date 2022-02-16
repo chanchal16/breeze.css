@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/breeze.css">
+    <link rel="stylesheet" href="../../styles/docs.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/a11y-dark.min.css">
+    <title>Breeze.css</title>
+</head>
+<body>
+    <div class="container">
+        <header class="navbar">
+            <span id="sidenav"><i class="fas fa-bars fa-lg"></i></span>
+            <span class="logo">
+            <img src="../../assets/swan-breeze.svg" alt="logo" width="35px" height="35px" />
+            <!-- <img src="../assets/logo.svg" alt="logo" width="35px" height="35px" /> -->
+            </span>
+            <a href="../../index.html" class="brand-name h6">
+            Breeze.css
+            </a>
+            <div class="navbar-items">
+            <nav>
+                <a href="https://github.com/chanchal16/breeze.css" class="github-btn" target="_blank">
+                <i class="fab fa-github fa-2x"></i>
+                </a>
+            </nav>
+            </div>
+        </header>
+        <aside>
+            <div class="drawer" id="sidebar">
+              <div class="drawer-content">
+                <h2 class="text-md"><strong>Components</strong></h2>
+                <div style="margin: auto;">
+                  <ul>
+                    <li class="drawer-items">
+                      <a href="../Alert/alert.html">Alerts</a>
+                    </li>
+                    <li class="drawer-items ">
+                      <a href="../Avatar/avatar.html"> Avatars</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Badge/badge.html">Badge</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Button/button.html">Button</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Cards/cards.html">Cards</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../ImageComponent/image.html">Image</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Input/input.html">Inputs</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../List/list.html">List</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../Modal/modal.html">Modal</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../Navbar/navbars.html">Navbars</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../Ratings/ratings.html">Ratings</a>
+                    </li>
+                    <li class="drawer-items">
+                        <a href="../Slider/slider.html">Slider</a>
+                    </li>
+                    <li class="drawer-items selected">
+                        <a href="">Toast</a>
+                    </li>
+                    <li class="drawer-items">
+                      <a href="../Text Utilities/typography.html">Typography</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </aside>
+        <section class="doc-container">
+            <div class="component-intro">
+                <h1 class="h2">Toast</h1>
+                <p class="text-md info">
+                    A toast provides simple feedback about an operation in a small popup. It only 
+                    fills the amount of space required for the message and the current activity 
+                    remains visible and interactive.
+                </p>
+            </div>
+            <!----simple alert-->
+            <div class="component-intro">
+                <h2 class="h5">Simple toast</h2>
+                <p class="text-md info">Toast comes with four variants with a distinctive icon and color. Toasts can be 
+                created using <span class="primary-text">.toast</span> class followed by the variant name.
+                </p>
+            </div>
+            <!--------preview div--------->
+            <div class="example-container">
+                <div class="toast basic">
+                    <p>This is basic toast!</p>
+                    <span class="ml"><i class="fas fa-times "></i></span>
+                </div>
+                <div class='toast success'>
+                    <span><i class="far fa-check-circle"></i></span>
+                    <p>This is success toast!</p>
+                    <span class="ml"><i class="fas fa-times "></i></span>
+                </div>
+                
+                <div class='toast error'>
+                    <i class="fas fa-skull"></i>
+                    <p>This is failure toast.</p>
+                    <span class="ml"><i class="fas fa-times "></i></span>
+                </div>
+                
+                <div class='toast warning'>
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p>This is warning toast.</p>
+                    <span class="ml"><i class="fas fa-times "></i></span>
+                </div>
+            </div>
+            <!---code snippet---->
+            <div class="code-snippet">
+                <span class="copy" id="copybtn"><i class="far fa-copy fa-lg"></i>
+                    <span class="tool_tip" id="tooltip">tooltip</span>
+                </span>
+                <pre>
+                    <code class="language-html mycode">
+                        &lt;div class="toast basic"&gt;
+                            &lt;p&gt;This is basic toast!&lt;/p&gt;
+                            &lt;span class="ml"&gt;&lt;i class="fas fa-times "&gt;&lt;/i&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class='toast success'&gt;
+                            &lt;span&gt;&lt;i class="far fa-check-circle"&gt;&lt;/i&gt;&lt;/span&gt;
+                            &lt;p&gt;This is success toast!&lt;/p&gt;
+                            &lt;span class="ml"&gt;&lt;i class="fas fa-times "&gt;&lt;/i&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class='toast error'&gt;
+                            &lt;i class="fas fa-skull"&gt;&lt;/i&gt;
+                            &lt;p&gt;This is failure toast.&lt;/p&gt;
+                            &lt;span class="ml"&gt;&lt;i class="fas fa-times "&gt;&lt;/i&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class='toast warning'&gt;
+                            &lt;i class="fas fa-exclamation-triangle"&gt;&lt;/i&gt;
+                            &lt;p&gt;This is warning toast.&lt;/p&gt;
+                            &lt;span class="ml"&gt;&lt;i class="fas fa-times "&gt;&lt;/i&gt;&lt;/span&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+        </section>
+        <!----footer---->
+        <footer class="footer">
+            <p class="text-md footer-header">made by &nbsp;<span>Chanchal</span></p>
+            <div class="socials">
+            <a class="links" href="https://github.com/chanchal16" target="_blank">
+                <i class="fab fa-github fa-2x"></i></a>
+            <a class="links" href="https://twitter.com/chanchal16_" target="_blank">
+                <i class="fab fa-twitter fa-2x"></i></a>
+            <a class="links" href="https://www.linkedin.com/in/rajput07/" target="_blank">
+                <i class="fab fa-linkedin-in fa-2x"></i></a>
+            </div>
+            <p class="text-xs footer-header">© 2022 &nbsp;<span>Breeze.css</span></p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script> 
+    <script>hljs.highlightAll();</script>
+    <script src="../../index.js"></script>
+</body>
+</html>

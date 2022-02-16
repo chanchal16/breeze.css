@@ -3,6 +3,7 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
 
 /******import component files*****/
+
 @import './reset.css';
 @import '../Components/Alert/alert.css';
 @import '../Components/Avatar/avatar.css';
@@ -13,12 +14,10 @@
 @import '../Components/ImageComponent/image.css';
 @import '../Components/Input/input.css';
 @import '../Components/List/list.css';
+@import '../Components/Modal/modal.css';
 @import '../Components/Navbar/navbars.css';
 @import '../Components/Ratings/ratings.css';
 @import '../Components/Slider/slider.css';
 @import '../Components/Text Utilities/typography.css';
+@import '../Components/Toast/toast.css';
 @import './variables.css';
-
-
-
-

@@ -28,7 +28,14 @@ html {
     font-family: "Roboto", sans-serif;
     min-height: 100vh;
   }
-  
+  /* ****navbar***** */
+  header.landing-nav{
+    background-color: white ;
+  }
+  .landing-nav * a, .landing-nav > a{
+    color: var(--gray);
+  }
+  /* *****hero section**** */
   .hero-section {
     /* background-color: blueviolet; */
     min-height: 40rem;
@@ -42,8 +49,8 @@ html {
   }
   
   h3 {
-    /* font-size: 3.2em; */
     font-size: 3.2em;
+    font-weight: 700;
     margin-bottom: 1.2rem;
   }
   

@@ -17,20 +17,21 @@ const toggleSideNav = ()=>{
 }
 hamburger && hamburger.addEventListener('click',toggleSideNav);
 
-/******copy to clipboard** */
-let code = document.querySelector('.mycode').innerHTML;
-let copyBtn = document.getElementById('copybtn');
-let toolTip = document.getElementById('tooltip')
+// back to top scroll
+const topBtn = document.getElementById("backToTop");
+// When the user scrolls down 30px from the top of the document, show the button
+window.onscroll = ()=> scrollFunction();
 
-const copyToClipboard = ()=>{
-  let modifiedCode = code.replace(/&lt;/g,'<').replace(/&gt;/g,'>')
-   /* Copy the code */
-  navigator.clipboard.writeText(modifiedCode).then(()=>console.log('copied'));
-  toolTip.innerHTML="copied!"
-  toolTip.classList.add('showtooltip');
-  setTimeout(() => {
-    toolTip.className = toolTip.className.replace("showtooltip", "");
-  }, 2000);
-
+const scrollFunction=()=> {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    topBtn.style.display = "block";
+  } else {
+    topBtn.style.display = "none";
+  }
 }
-copyBtn && copyBtn.addEventListener('click',copyToClipboard);
+// When the user clicks on the button, scroll to the top of the document
+const topFunction=()=> {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+topBtn && topBtn.addEventListener('click',topFunction);

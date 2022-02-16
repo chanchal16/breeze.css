@@ -46,3 +46,6 @@
   .action-btns:hover {
     background-color: var(--light);
   }
+  .m-code{
+    margin-left: 2rem;
+  }

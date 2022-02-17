@@ -74,13 +74,11 @@ footer {
     box-sizing: border-box;
     width: 80%;
     max-height: 250px;
-    /* padding: 1rem 0;  */
     background-color: #FAFAFA;
     margin: 2rem auto;
    overflow: auto;    
 }
 code{
-    /* white-space: pre-wrap; */
     margin-left: -2.5rem;
 }
 .copy{
@@ -119,7 +117,6 @@ code{
 }
 /*******back to top******/
 #backToTop{
-    /* margin-left: 95%; */
     display: none;   
     position: fixed; /* Fixed/sticky position */
     bottom: 1rem; 
@@ -136,11 +133,9 @@ code{
         "main"
         "footer";
     }
-    /*aside{
-        position: fixed;
-    }*/
     .doc-container{
         margin: 0;
     }
+    
 }
   

@@ -173,3 +173,7 @@
     cursor: pointer;
     background-color: var(--primary); 
 }
+/* code block to fix spacing */
+.code-block{
+    max-width: 45rem;
+}

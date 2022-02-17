@@ -33,3 +33,9 @@
 .palette .secondary-dark{
     background-color: var(--secondary-dark);
 }
+/* ***media queries** */
+@media only screen and (max-width: 500px) {
+    .palette{
+        justify-content: center;
+    }
+}

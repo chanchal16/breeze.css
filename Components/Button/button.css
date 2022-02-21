@@ -22,7 +22,9 @@
 .btn-secondary{
     background-color: var(--secondary);
 }
-.btn-secondary:hover, .fab-secondary:hover{
+.btn-secondary:hover,
+.fab-secondary:hover,
+.btn-icon:hover{
     background-color: var(--secondary-dark);
 }
 /*******links*****/

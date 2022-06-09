@@ -41,7 +41,6 @@ ul {
 .list-items {
     display: inline-block;
     list-style: none;
-    /* padding: 0.5rem; */
     font-size: 18px;
     color: var(--light);
 }

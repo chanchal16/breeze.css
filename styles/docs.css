@@ -56,7 +56,6 @@ footer {
 }
 .example-container{
     background-color: var(--default-bg);
-    /* min-height: 100px; */
     width: 80%;
     display: flex;
     justify-content: center;

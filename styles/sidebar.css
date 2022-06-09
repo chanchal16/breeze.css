@@ -22,7 +22,6 @@ ul {
         height: 25vh; 
         top: 3.8rem; 
         z-index: 99999;
-        /* transition: left 2s ease; */
         overflow-y: scroll;      
     }
 }
